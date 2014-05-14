@@ -1,0 +1,151 @@
+/* Overall */
+
+body {
+  color: #222;
+  font-family: "Open Sans";
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Regular-webfont.woff") format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Semibold-webfont.woff") format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@media (min-width: 992px) {
+  .container, .jumbotron .container {
+    max-width: 940px;
+  }
+}
+
+/* Header */
+
+.header {
+  height: 90px;
+}
+.header .nav {
+  margin: 26px 10px 0 0;
+  font-size: 13px;
+  font-weight: 600;
+}
+.header .nav > li {
+  float: left;
+}
+.header .nav > li > a {
+  background: none;
+}
+.header .nav > li > a:link {
+  color: #222;
+}
+.header .mascots {
+  margin-right: -15px;
+}
+
+/* Events */
+
+.jumbotron.event {
+  position: relative;
+  margin-bottom: 2px;
+  padding: 0;
+  text-align: center;
+}
+
+.jumbotron.event img {
+  margin: 0 auto;
+  width: 1000px;
+  height: 200px;
+}
+.jumbotron.event.featured img {
+  height: 350px;
+}
+
+.jumbotron.event::before {
+  position: relative;
+  z-index: 2;
+  display: block;
+  margin: 0 auto -200px;
+  width: 1000px;
+  height: 200px;
+  background: #aaa;
+  content: ' ';
+}
+.jumbotron.event.featured::before {
+  margin-bottom: -350px;
+  height: 350px;
+}
+
+.jumbotron.event::after {
+  position: relative;
+  z-index: 1;
+  display: block;
+  margin: -200px auto 0;
+  width: 1000px;
+  height: 200px;
+  background: url("../images/retrodisplay.png");
+  opacity: .4;
+  content: ' ';
+}
+.jumbotron.event.featured::after {
+  margin-top: -350px;
+  height: 350px;
+}
+
+.jumbotron.event .container {
+  position: relative;
+  z-index: 3;
+  margin-top: -200px;
+  height: 200px;
+  color: #fff;
+  text-align: left;
+}
+.jumbotron.event.featured .container {
+  margin-top: -350px;
+  height: 350px;
+}
+
+.jumbotron.event h3 {
+  position: absolute;
+  bottom: 40px;
+  font-size: 28px;
+  font-weight: 600;
+}
+.jumbotron.event .subtitle {
+  position: absolute;
+  bottom: 24px;
+  font-size: 12px;
+}
+
+/* Individual events */
+
+.jumbotron.houkago.event {
+  background: #212347;
+}
+.jumbotron.houkago.event::before {
+  background: linear-gradient(90deg, #212347, rgba(176,176,176,0) 33%, rgba(176,176,176,0) 66%, #212347);
+}
+
+.jumbotron.art.event {
+  background: #6d6d6d;
+}
+.jumbotron.art.event::before {
+  background: linear-gradient(90deg, #6d6d6d, rgba(176,176,176,0) 33%, rgba(176,176,176,0) 66%, #6d6d6d);
+}
+
+.jumbotron.screening.event {
+  background: #a88d36;
+}
+.jumbotron.screening.event::before {
+  background: linear-gradient(90deg, #a88d36, rgba(176,176,176,0) 33%, rgba(176,176,176,0) 66%, #a88d36);
+}
+
+.jumbotron.gaming.event {
+  background: #389b5f;
+}
+.jumbotron.gaming.event::before {
+  background: linear-gradient(90deg, #389b5f, rgba(176,176,176,0) 33%, rgba(176,176,176,0) 66%, #389b5f);
+}

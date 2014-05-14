@@ -6,135 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>AnimeUNSW</title>
 
-    <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <style type="text/css">
-      /* Overall */
-
-      body {
-        color: #222;
-        font-family: "Open Sans";
-      }
-      @font-face {
-        font-family: "Open Sans";
-        src: url("fonts/OpenSans-Regular-webfont.woff") format('woff');
-        font-weight: normal;
-        font-style: normal;
-      }
-      @font-face {
-        font-family: "Open Sans";
-        src: url("fonts/OpenSans-Semibold-webfont.woff") format('woff');
-        font-weight: 600;
-        font-style: normal;
-      }
-
-      @media (min-width: 992px) {
-        .container {
-          max-width: 940px;
-        }
-      }
-
-      /* Header */
-
-      .header {
-        height: 90px;
-      }
-      .header .nav {
-        margin: 26px 10px 0 0;
-        font-size: 13px;
-        font-weight: 600;
-      }
-      .header .nav > li {
-        float: left;
-      }
-      .header .nav > li > a {
-        background: none;
-      }
-      .header .nav > li > a:link {
-        color: #222;
-      }
-      .header .mascots {
-        margin-right: -15px;
-      }
-
-      /* Events */
-
-      .jumbotron.event {
-        margin-bottom: 2px;
-        padding: 0;
-        text-align: center;
-      }
-      .jumbotron.event img {
-        margin: 0 auto;
-        width: 1000px;
-        height: 200px;
-      }
-      .jumbotron.featured.event img {
-        height: 350px;
-      }
-      .jumbotron.event::before {
-        position: relative;
-        display: block;
-        margin: 0 auto -200px;
-        width: 1000px;
-        height: 200px;
-        background: #aaa;
-        content: ' ';
-        z-index: 2;
-      }
-      .jumbotron.featured.event::before {
-        margin-bottom: -350px;
-        height: 350px;
-      }
-      /*.jumbotron.event::after {
-        position: relative;
-        display: block;
-        margin: -200px 0 0;
-        width: 100%;
-        height: 200px;
-        background: rgba(255, 255, 255, .25);
-        content: ' ';
-        z-index: 3;
-        opacity: 0;
-        transition: .3s opacity ease-in;
-      }
-      .jumbotron.featured.event::after {
-        margin-top: -350px;
-        height: 350px;
-      }
-      .jumbotron:hover.event::after {
-        opacity: .5;
-      }*/
-
-      .jumbotron.houkago.event {
-        background: #212347;
-      }
-      .jumbotron.houkago.event::before {
-        background: linear-gradient(90deg, #212347, rgba(176,176,176,0) 33%, rgba(176,176,176,0) 66%, #212347);
-      }
-
-      .jumbotron.art.event {
-        background: #6d6d6d;
-      }
-      .jumbotron.art.event::before {
-        background: linear-gradient(90deg, #6d6d6d, rgba(176,176,176,0) 33%, rgba(176,176,176,0) 66%, #6d6d6d);
-      }
-
-      .jumbotron.screening.event {
-        background: #a88d36;
-      }
-      .jumbotron.screening.event::before {
-        background: linear-gradient(90deg, #a88d36, rgba(176,176,176,0) 33%, rgba(176,176,176,0) 66%, #a88d36);
-      }
-
-      .jumbotron.gaming.event {
-        background: #389b5f;
-      }
-      .jumbotron.gaming.event::before {
-        background: linear-gradient(90deg, #389b5f, rgba(176,176,176,0) 33%, rgba(176,176,176,0) 66%, #389b5f);
-      }
-    </style>
+    <link href="css/styles.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -160,24 +33,40 @@
 
     <div class="jumbotron featured houkago event">
       <img src="images/houkago.png">
+      <div class="container">
+        <h3>Houkago Tea Time</h3>
+        <div class="subtitle">Today at 2:00 pm - 5:00 pm</div>
+      </div>
     </div>
 
     <div class="jumbotron art event">
       <img src="images/art-sessions.png">
+      <div class="container">
+        <h3>Art Sessions</h3>
+        <div class="subtitle">Wednesday at 4:00 pm - 7:00 pm</div>
+      </div>
     </div>
 
     <div class="jumbotron screening event">
       <img src="images/screening-sessions.png">
+      <div class="container">
+        <h3>Screening Sessions</h3>
+        <div class="subtitle">Friday at 3:00 pm - 6:00 pm</div>
+      </div>
     </div>
 
     <div class="jumbotron gaming event">
       <img src="images/gaming-sessions.png">
+      <div class="container">
+        <h3>Gaming Sessions</h3>
+        <div class="subtitle">Next Tuesday at 3:00 pm - 6:00 pm</div>
+      </div>
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>-->
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <!--<script src="js/bootstrap.min.js"></script>-->
     <!-- Retina -->
     <script src="js/retina.min.js"></script>
   </body>
