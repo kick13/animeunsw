@@ -46,6 +46,17 @@ body {
   margin-right: -15px;
 }
 
+/* Footer */
+
+.footer {
+  padding: 20px 0;
+  color: #aaa;
+  font-size: 13px;
+}
+.footer .text {
+  margin-top: 13px;
+}
+
 /* Events */
 
 .jumbotron.event {
