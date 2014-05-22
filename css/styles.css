@@ -96,28 +96,39 @@ body {
 }
 .cssanimations .header .logo .logo-anim > .p1 {
   background-image: url("../images/logo-part1.png");
-  animation: fade 1s linear 0.0s;
+  animation: hide 0.0s, fade 1s linear 0.0s;
+  -webkit-animation: hide 0.0s, fade 1s linear 0.0s;
 }
 .cssanimations .header .logo .logo-anim > .p2 {
   background-image: url("../images/logo-part2.png");
   animation: hide 0.5s, fade 1s linear 0.5s;
+  -webkit-animation: hide 0.5s, fade 1s linear 0.5s;
 }
 .cssanimations .header .logo .logo-anim > .p3 {
   background-image: url("../images/logo-part3.png");
   animation: hide 1.0s, fade 1s linear 1.0s;
+  -webkit-animation: hide 1.0s, fade 1s linear 1.0s;
 }
 .cssanimations .header .logo .logo-anim > .p4 {
   background-image: url("../images/logo-part4.png");
   animation: hide 1.5s, fade 1s linear 1.5s;
+  -webkit-animation: hide 1.5s, fade 1s linear 1.5s;
 }
 .cssanimations .header .logo .logo-anim > .p5 {
   background-image: url("../images/logo-part5.png");
   animation: hide 2.0s, fade 1s linear 2.0s;
+  -webkit-animation: hide 2.0s, fade 1s linear 2.0s;
 }
 @keyframes hide {
   from { opacity: 0; } to { opacity: 0; }
 }
 @keyframes fade {
+  from { opacity: 0; } to { opacity: 1; }
+}
+@-webkit-keyframes hide {
+  from { opacity: 0; } to { opacity: 0; }
+}
+@-webkit-keyframes fade {
   from { opacity: 0; } to { opacity: 1; }
 }
 
