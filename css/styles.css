@@ -67,6 +67,60 @@ body {
   margin-left: 18px;
 }
 
+/* Super awesome logo animation */
+
+.cssanimations .header .logo {
+  position: relative;
+}
+.cssanimations .header .logo-img {
+  overflow: hidden;
+  margin-left: 50px;
+}
+.cssanimations .header .logo-img img {
+  position: relative;
+  left: -50px;
+}
+.cssanimations .header .logo-anim {
+  position: absolute;
+  left: 0;
+  top: 25px;
+}
+.cssanimations .header .logo-anim > * {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-size: 50px 50px;
+}
+.cssanimations .header .logo .logo-anim > .p1 {
+  background-image: url("../images/logo-part1.png");
+  animation: fade 1s linear 0.0s;
+}
+.cssanimations .header .logo .logo-anim > .p2 {
+  background-image: url("../images/logo-part2.png");
+  animation: hide 0.5s, fade 1s linear 0.5s;
+}
+.cssanimations .header .logo .logo-anim > .p3 {
+  background-image: url("../images/logo-part3.png");
+  animation: hide 1.0s, fade 1s linear 1.0s;
+}
+.cssanimations .header .logo .logo-anim > .p4 {
+  background-image: url("../images/logo-part4.png");
+  animation: hide 1.5s, fade 1s linear 1.5s;
+}
+.cssanimations .header .logo .logo-anim > .p5 {
+  background-image: url("../images/logo-part5.png");
+  animation: hide 2.0s, fade 1s linear 2.0s;
+}
+@keyframes hide {
+  from { opacity: 0; } to { opacity: 0; }
+}
+@keyframes fade {
+  from { opacity: 0; } to { opacity: 1; }
+}
+
 /* Events */
 
 .event {
