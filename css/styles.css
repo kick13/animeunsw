@@ -69,6 +69,7 @@ body {
 
 /* Super awesome logo animation */
 
+/*
 .cssanimations .header .logo {
   position: relative;
 }
@@ -132,6 +133,7 @@ body {
 @-webkit-keyframes fade {
   from { opacity: 0; } to { opacity: 1; }
 }
+*/
 
 /* Events */
 
