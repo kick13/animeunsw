@@ -1,0 +1,38 @@
+# How to events!
+# ==============
+#
+# Basically go with the layout like below and you should be fine!
+# For each event, you'll need to provide a name and width.
+#
+# - The name will be used to determine the event file and image. So for
+#   example, if you give `name: jibun-wo`, then it'll be assumed that the
+#   event information is at:
+#       website/_events/jibun-wo.md
+#   and that the event image is at:
+#       website/images/events/jibun-wo.png
+#       website/images/events/jibun-wo@2x.png (optional)
+#
+# - The width will specify how much room the event will take on the page.
+#   Right now, you can use 1x, 2x, and fill. Anything else might result in
+#   weirdness showing up.
+#
+# It's totally okay if you mess up! If you know how to build the website
+# locally, give it a shot first, and if you don't... or you're feeling lazy,
+# there's always that magical undo button, right :)
+
+- row:
+  - name:  houkago
+    width: 2x
+
+  - name:  art-sessions
+    width: 1x
+
+  - name:  screening-sessions
+    width: 1x
+
+  - name:  gaming-sessions
+    width: 1x
+
+- row:
+  - name:  animesydney-camp
+    width: fill

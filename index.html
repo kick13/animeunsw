@@ -1,3 +1,8 @@
+---
+layout: default
+title: AnimeUNSW
+---
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -41,35 +46,20 @@
 
     <div class="events">
       <div class="container">
+      {% for row in site.data.events-layout %}
         <div class="event-row">
-          <div class="event featured-1">
-            <img src="images/houkago.png">
-            <h3>Houkago Tea Time</h3>
-            <div class="subtitle">Today at 2:00 pm - 5:00 pm</div>
+        {% for event in row.row %}
+          <div class="event
+            {% if event.width == '2x' %}featured-1{% endif %}
+            {% if event.width == 'fill' %}featured-max{% endif %}
+            ">
+            <img src="images/events/{{ event.name }}.png">
+            <h3>Event title</h3>
+            <div class="subtitle">Event time</div>
           </div>
-          <div class="event">
-            <img src="images/art-sessions.png">
-            <h3>Art Sessions</h3>
-            <div class="subtitle">Details &raquo;</div>
-          </div>
-          <div class="event">
-            <img src="images/screening-sessions.png">
-            <h3>Screening Sessions</h3>
-            <div class="subtitle">Details &raquo;</div>
-          </div>
-          <div class="event">
-            <img src="images/gaming-sessions.png">
-            <h3>Gaming Sessions</h3>
-            <div class="subtitle">Details &raquo;</div>
-          </div>
+        {% endfor %}
         </div>
-        <div class="event-row">
-          <div class="event featured-max">
-            <img src="images/animesydney-camp.png">
-            <h3>AnimeSydney Camp!</h3>
-            <div class="subtitle">16th-18th July &nbsp;&nbsp; Details &raquo;</div>
-          </div>
-        </div>
+      {% endfor %}
       </div>
       <div class="clear"></div>
     </div>
