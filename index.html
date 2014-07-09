@@ -43,7 +43,7 @@ title: AnimeUNSW
         </ul>
       </div>
     </div>
-    
+
     <div class="events">
       <div class="container">
       {% for row in site.data.events-layout %}
@@ -54,8 +54,18 @@ title: AnimeUNSW
             {% if event.width == 'fill' %}featured-max{% endif %}
             ">
             <img src="images/events/{{ event.id }}.png">
-            <h3>Event title</h3>
-            <div class="subtitle">Event time</div>
+            <div class="details">
+              {% assign found_event = false %}
+              {% for details in site.events %}{% if details.relative_path contains event.id %}
+                {% assign found_event = true %}
+                <h3>{{ details.title }}</h3>
+                <div class="subtitle">Event time</div>
+              {% endif %}{% endfor %}
+              {% if found_event == false %}
+                <h3>Event details missing</h3>
+                <div class="subtitle">Try creating a file <code>_events/{{ event.id }}.md</code></div>
+              {% endif %}
+            </div>
           </div>
         {% endfor %}
         </div>

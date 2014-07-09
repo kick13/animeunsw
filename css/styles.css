@@ -186,20 +186,20 @@ body {
   height: 350px;
 }
 
-.event h3 {
+.event .details {
   position: absolute;
   left: 20px;
-  bottom: 24px;
+  bottom: 15px;
+  z-index: 3;
+}
+.event .details h3 {
+  margin-bottom: 5px;
   font-size: 14px;
   font-weight: 600;
   z-index: 3;
 }
-.event .subtitle {
-  position: absolute;
-  left: 20px;
-  bottom: 15px;
+.event .details .subtitle {
   font-size: 11px;
-  z-index: 3;
 }
 
 /* Sponsors */

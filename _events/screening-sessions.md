@@ -1,5 +1,5 @@
 ---
-title: Weekly Screening Sessions
+title: Screening Sessions
 occurrence: weekly
 ---
 
