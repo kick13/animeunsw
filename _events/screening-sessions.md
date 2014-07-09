@@ -1,6 +1,6 @@
 ---
 title: Screening Sessions
-occurrence: weekly
+subtitle: Fridays 3-6pm
 ---
 
 Screening sessions something!
