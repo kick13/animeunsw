@@ -43,7 +43,7 @@ title: AnimeUNSW
         </ul>
       </div>
     </div>
-
+    
     <div class="events">
       <div class="container">
       {% for row in site.data.events-layout %}
@@ -53,7 +53,7 @@ title: AnimeUNSW
             {% if event.width == '2x' %}featured-1{% endif %}
             {% if event.width == 'fill' %}featured-max{% endif %}
             ">
-            <img src="images/events/{{ event.name }}.png">
+            <img src="images/events/{{ event.id }}.png">
             <h3>Event title</h3>
             <div class="subtitle">Event time</div>
           </div>

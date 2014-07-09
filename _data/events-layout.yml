@@ -2,10 +2,10 @@
 # ==============
 #
 # Basically go with the layout like below and you should be fine!
-# For each event, you'll need to provide a name and width.
+# For each event, you'll need to provide an id and width.
 #
-# - The name will be used to determine the event file and image. So for
-#   example, if you give `name: jibun-wo`, then it'll be assumed that the
+# - The id will be used to determine the event file and image. So for
+#   example, if you give `id: jibun-wo`, then it'll be assumed that the
 #   event information is at:
 #       website/_events/jibun-wo.md
 #   and that the event image is at:
@@ -21,18 +21,18 @@
 # there's always that magical undo button, right :)
 
 - row:
-  - name:  houkago
+  - id:    houkago
     width: 2x
 
-  - name:  art-sessions
+  - id:    art-sessions
     width: 1x
 
-  - name:  screening-sessions
+  - id:    screening-sessions
     width: 1x
 
-  - name:  gaming-sessions
+  - id:    gaming-sessions
     width: 1x
 
 - row:
-  - name:  animesydney-camp
+  - id:    animesydney-camp
     width: fill
