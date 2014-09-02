@@ -1,117 +1,54 @@
 ---
 layout: default
-title: AnimeUNSW
+title: Home
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>AnimeUNSW</title>
-
-    <link href="favicon.ico" rel="shortcut icon">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    <script src="js/modernizr.custom.81128.js"></script>
-  </head>
-  <body>
-    <div class="container">
-      <div class="header">
-        <div class="pull-left logo">
-          <div class="logo-img">
-            <img src="images/logo.png">
-          </div>
-          <div class="logo-anim">
-            <b class="p1"></b><b class="p2"></b><b class="p3"></b><b class="p4"></b><b class="p5"></b>
-          </div>
-        </div>
-        <img class="pull-right mascots" src="images/mascots.png">
-        <ul class="pull-left nav">
-          <li><a href="/">Home</a></li>
-          <li><a href="/about/">About</a></li>
-          <li><a href="https://www.facebook.com/groups/animeunsw/">Facebook</a></li>
-          <li><a href="http://twitter.com/AnimeUNSW">Twitter</a></li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="events">
-      <div class="container">
-      {% for row in site.data.events-layout %}
-        <div class="event-row">
-        {% for event in row.row %}
-          <div class="event
-            {% if event.width == '2x' %}featured-1{% endif %}
-            {% if event.width == 'fill' %}featured-max{% endif %}
-            ">
-            <img src="images/events/{{ event.id }}.png">
-            <div class="details">
-              {% assign found_event = false %}
-              {% for details in site.events %}{% if details.relative_path contains event.id %}
-                {% assign found_event = true %}
-                <h3>{{ details.title }}</h3>
-                <div class="subtitle">{{ details.subtitle }}</div>
-                {% if details.location %}
-                <div class="subtitle">{{ details.location }}</div>
-                {% endif %}
-              {% endif %}{% endfor %}
-              {% if found_event == false %}
-                <h3>Event details missing</h3>
-                <div class="subtitle">Try creating a file <code>_events/{{ event.id }}.md</code></div>
-              {% endif %}
-            </div>
-          </div>
-        {% endfor %}
-        </div>
-      {% endfor %}
-      </div>
-      <div class="clear"></div>
-    </div>
-
-    <div class="filler">
-      <div class="container">
-        <img src="images/filler-background.jpg">
-        <div class="text">
-          <p>Welcome to AnimeUNSW!</p>
-          <p>We're a society for fans of anime and all things related,<span>like manga, drawing, games, cosplay and more.</span></p>
+<div class="events">
+  <div class="container">
+  {% for row in site.data.events-layout %}
+    <div class="event-row">
+    {% for event in row.row %}
+      <div class="event
+        {% if event.width == '2x' %}featured-1{% endif %}
+        {% if event.width == 'fill' %}featured-max{% endif %}
+        ">
+        <img src="images/events/{{ event.id }}.png">
+        <div class="details">
+          {% assign found_event = false %}
+          {% for details in site.events %}{% if details.relative_path contains event.id %}
+            {% assign found_event = true %}
+            <h3>{{ details.title }}</h3>
+            <div class="subtitle">{{ details.subtitle }}</div>
+            {% if details.location %}
+            <div class="subtitle">{{ details.location }}</div>
+            {% endif %}
+          {% endif %}{% endfor %}
+          {% if found_event == false %}
+            <h3>Event details missing</h3>
+            <div class="subtitle">Try creating a file <code>_events/{{ event.id }}.md</code></div>
+          {% endif %}
         </div>
       </div>
+    {% endfor %}
     </div>
+  {% endfor %}
+  </div>
+  <div class="clear"></div>
+</div>
 
-    <div class="sponsors">
-      <div class="container">
-        Proudly sponsored by:
-        <img src="images/sponsors.png">
-      </div>
+<div class="filler">
+  <div class="container">
+    <img src="images/filler-background.jpg">
+    <div class="text">
+      <p>Welcome to AnimeUNSW!</p>
+      <p>We're a society for fans of anime and all things related,<span>like manga, drawing, games, cosplay and more.</span></p>
     </div>
+  </div>
+</div>
 
-    <div class="footer">
-      <div class="container">
-        <div class="pull-left text">
-          &copy; 2014 AnimeUNSW. Images are copyright their respective owners.
-          <div>自分を、世界さえも変えてしまえそうな...</div>
-        </div>
-        <div class="pull-right logos">
-          <img src="images/animesydney-logo.png">
-          <img src="images/arc-logo.png">
-        </div>
-      </div>
-    </div>
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>-->
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <!--<script src="js/bootstrap.min.js"></script>-->
-    <!-- Retina -->
-    <script src="js/retina.min.js"></script>
-  </body>
-</html>
+<div class="sponsors">
+  <div class="container">
+    Proudly sponsored by:
+    <img src="images/sponsors.png">
+  </div>
+</div>
