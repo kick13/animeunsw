@@ -1,6 +1,7 @@
 ---
 title: Gaming Sessions
-subtitle: Tuesdays 3-6pm
+subtitle: Fridays 3-6pm
+location: Goldstein G06
 ---
 
 Screening sessions something!

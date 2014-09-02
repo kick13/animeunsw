@@ -24,10 +24,10 @@
   - id:    houkago
     width: 2x
 
-  - id:    art-sessions
+  - id:    screening-sessions
     width: 1x
 
-  - id:    screening-sessions
+  - id:    art-sessions
     width: 1x
 
   - id:    gaming-sessions

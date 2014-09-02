@@ -1,6 +1,7 @@
 ---
 title: Art Sessions
-subtitle: Wednesdays 3-6pm
+subtitle: Thursdays 3-6pm
+location: Red Center 3037
 ---
 
 Screening sessions something!

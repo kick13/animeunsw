@@ -60,6 +60,9 @@ title: AnimeUNSW
                 {% assign found_event = true %}
                 <h3>{{ details.title }}</h3>
                 <div class="subtitle">{{ details.subtitle }}</div>
+                {% if details.location %}
+                <div class="subtitle">{{ details.location }}</div>
+                {% endif %}
               {% endif %}{% endfor %}
               {% if found_event == false %}
                 <h3>Event details missing</h3>
