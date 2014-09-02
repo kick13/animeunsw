@@ -1,6 +1,6 @@
 ---
 title: Screening Sessions
-subtitle: Mondays 3-6pm
+subtitle: Every Monday 3-6pm
 location: John Goodsell LG21
 ---
 

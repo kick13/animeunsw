@@ -1,6 +1,6 @@
 ---
 title: Art Sessions
-subtitle: Thursdays 3-6pm
+subtitle: Every Thursday 3-6pm
 location: Red Center 3037
 ---
 

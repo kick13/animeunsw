@@ -1,6 +1,6 @@
 ---
 title: Gaming Sessions
-subtitle: Fridays 3-6pm
+subtitle: Every Friday 3-6pm
 location: Goldstein G06
 ---
 
