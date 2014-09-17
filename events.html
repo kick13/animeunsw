@@ -1,0 +1,31 @@
+---
+layout: default
+title: Events
+---
+
+{% for row in site.data.events-layout %}
+  <div>
+  {% for event in row.row %}
+    <div>
+      <div class="details">
+        {% assign found_event = false %}
+        {% for details in site.events %}{% if details.relative_path contains event.id %}
+          {% assign found_event = true %}
+          <h2>{{ details.title }}</h2>
+          <div class="subtitle">{{ details.subtitle }}</div>
+          {% if details.location %}
+            <div class="subtitle">{{ details.location }}</div>
+          {% endif %}
+          {% if details.summary %}
+            <p>{{ details.summary }}</p>
+          {% endif %}
+        {% endif %}{% endfor %}
+        {% if found_event == false %}
+          <h3>Event details missing</h3>
+          <div class="subtitle">Try creating a file <code>_events/{{ event.id }}.md</code></div>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+  </div>
+{% endfor %}
