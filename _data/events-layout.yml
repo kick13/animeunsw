@@ -33,6 +33,6 @@
   - id:    gaming-sessions
     width: 1x
 
-- row:
-  - id:    animesydney-camp
-    width: fill
+#- row:
+#  - id:    animesydney-camp
+#    width: fill
