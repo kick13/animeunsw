@@ -175,6 +175,7 @@ body {
   margin-left: 0;
 }
 
+/* gradient down to dark to make event text more readable */
 .event::before {
   position: relative;
   z-index: 2;
@@ -184,6 +185,23 @@ body {
   height: 200px;
   background: linear-gradient(180deg, rgba(0,0,0,0) 30%, rgba(0,0,0,0.5));
   content: ' ';
+}
+
+.event::after {
+  position: relative;
+  z-index: 2;
+  display: block;
+  margin: 0 auto -200px;
+  top: -200px;
+  width: 100%;
+  height: 200px;
+  background: #fff;
+  content: ' ';
+  opacity: 0;
+}
+.event:hover::after {
+  opacity: .3;
+  transition: .3s all;
 }
 
 .jumbotron.event .container {
