@@ -2,6 +2,16 @@
 layout: containerless
 ---
 
+{% if page.title-background %}
+<div class="body-header" style="
+    background-image:url('images/{{ page.title-background }}');
+    {% if page.title-shift %}background-position: 0 {{ page.title-shift }};{% endif %}">
+  <div class="container">
+    <h1>{{ page.title }}</h1>
+  </div>
+</div>
+{% endif %}
+
 <div class="container">
-  {{ content}}
+  {{ content }}
 </div>

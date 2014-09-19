@@ -1,9 +1,9 @@
 ---
 layout: default
-title: About
+title: About Us
+title-background: header-about.jpg
+title-shift: -150px
 ---
-
-# About us
 
 AnimeUNSW was formed in 1997 by three financially-challenged anime enthusiasts looking to support their passion. Now it is Sydney's largest anime club, catering to members from all across the city.
 

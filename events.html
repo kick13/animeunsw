@@ -1,12 +1,15 @@
 ---
 layout: default
 title: Events
+title-background: header-events.jpg
+title-shift: -240px
 ---
 
+<div class="events-list">
 {% for row in site.data.events-layout %}
   <div>
   {% for event in row.row %}
-    <div>
+    <div class="event">
       <div class="details">
         {% assign found_event = false %}
         {% for details in site.events %}{% if details.relative_path contains event.id %}
@@ -29,3 +32,4 @@ title: Events
   {% endfor %}
   </div>
 {% endfor %}
+</div>
