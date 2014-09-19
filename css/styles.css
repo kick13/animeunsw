@@ -304,10 +304,13 @@ p {
   margin-bottom: 123px;
   height: 152px;
   color: #fff;
+}
+.filler .text p {
   font-family: Lato, sans-serif;
   font-size: 36px;
   font-weight: 100;
   text-align: center;
+  line-height: 48px;
 }
 
 .filler .text span {
