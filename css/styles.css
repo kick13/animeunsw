@@ -159,6 +159,14 @@ h1, h2, h3, h4, h5 {
   font-family: Lato, sans-serif;
 }
 
+/* General text */
+
+p {
+  margin-bottom: 20px;
+  font-size: 15px;
+  line-height: 28px;
+}
+
 /* Body headers */
 
 .body-header {
