@@ -21,7 +21,7 @@
 # there's always that magical undo button, right :)
 
 - row:
-  - id:    houkago
+  - id:    post-agm-karaoke
     width: 2x
 
   - id:    screening-sessions
