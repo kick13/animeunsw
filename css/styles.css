@@ -159,6 +159,15 @@ h1, h2, h3, h4, h5 {
   font-family: Lato, sans-serif;
 }
 
+h2 {
+  border-top: 2px solid #dac9b1;
+  margin-top: 40px;
+  padding-top: 10px;
+}
+h3 {
+  font-size: 22px;
+}
+
 /* General text */
 
 p {
