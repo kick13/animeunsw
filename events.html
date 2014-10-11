@@ -15,9 +15,9 @@ title-shift: -240px
         {% for details in site.events %}{% if details.relative_path contains event.id %}
           {% assign found_event = true %}
           <h2>{{ details.title }}</h2>
-          <div class="subtitle">{{ details.subtitle }}</div>
+          <div class="subtitle"><i class="glyphicon glyphicon-time"></i> {{ details.subtitle }}</div>
           {% if details.location %}
-            <div class="subtitle">{{ details.location }}</div>
+            <div class="subtitle"><i class="glyphicon glyphicon-map-marker"></i> {{ details.location }}</div>
           {% endif %}
           {% if details.summary %}
             <p>{{ details.summary }}</p>

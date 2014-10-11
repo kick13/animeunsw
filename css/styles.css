@@ -308,6 +308,11 @@ p {
   font-size: 11px;
 }
 
+.events-list .event .details .subtitle {
+  margin: 4px 0 8px;
+  font-size: 13px;
+}
+
 /* Homepage sponsors */
 
 .sponsors {
