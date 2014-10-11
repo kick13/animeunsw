@@ -53,6 +53,7 @@ body {
 }
 .header .nav > li {
   float: left;
+  line-height: 19px;
 }
 .header .nav > li > a {
   padding: 10px 15px;
@@ -182,10 +183,14 @@ h3 {
 
 /* General text */
 
+body {
+  font-size: 15px;
+}
+p, li {
+  line-height: 28px;
+}
 p {
   margin-bottom: 20px;
-  font-size: 15px;
-  line-height: 28px;
 }
 
 /* Body headers */
