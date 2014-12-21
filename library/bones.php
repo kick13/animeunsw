@@ -158,6 +158,12 @@ function bones_scripts_and_styles() {
 		wp_enqueue_script( 'jquery' );
 		wp_enqueue_script( 'bones-js' );
 
+		// ANIMEUNSW
+
+		// retina.js
+		wp_register_script('retina-js', get_stylesheet_directory_uri() . '/library/js/libs/retina.min.js', array(), '1.3.0', true);
+		wp_enqueue_script('retina-js');
+
 	}
 }
 

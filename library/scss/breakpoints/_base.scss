@@ -16,11 +16,11 @@ GENERAL STYLES
 *********************/
 
 body {
-	font-family: $lato;
+	font-family: $open-sans;
 	font-size: 100%;
 	line-height: 1.5;
 	color: $text-color;
-	background-color: $gray;
+	background-color: $background;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -152,15 +152,18 @@ HEADER STYLES
 *********************/
 
 .header {
-	background-color: $black;
+	.nav {
+		clear: both;
+	}
 }
 
 	#logo {
-		margin: 0.75em 0;
+		float: left;
+	}
 
-		a {
-			color: $white;
-		}
+	#mascots {
+		float: left;
+		margin-right: -15px;
 	}
 
 /*********************
@@ -183,7 +186,7 @@ and more scalable.
 
 		a {
 			display: block;
-			color: $white;
+			color: $menu-link;
 			text-decoration: none;
 			padding: 0.75em;
 
@@ -192,9 +195,12 @@ and more scalable.
 			to even declare hover styles here, you can do it in
 			the style.scss file where it's relevant. We want to
 			keep this file as small as possible!
+
+			NOTE(richardw): I disagree with this, given anyone can just resize the
+			browser window to "mobile size"
 			*/
 			&:hover, &:focus {
-
+				color: $menu-link-hover;
 			}
 		}
 
