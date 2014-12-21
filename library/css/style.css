@@ -1554,14 +1554,14 @@ LINK STYLES
 *********************/
 /* line 81, ../scss/breakpoints/_base.scss */
 a, a:visited {
-  color: #f01d4f;
+  color: #b2a591;
   /* on hover */
   /* on click */
   /* mobile tap color */
 }
 /* line 85, ../scss/breakpoints/_base.scss */
 a:hover, a:focus, a:visited:hover, a:visited:focus {
-  color: #d10e3c;
+  color: #9d8c73;
 }
 /* line 95, ../scss/breakpoints/_base.scss */
 a:link, a:visited:link {
@@ -2163,9 +2163,28 @@ FOOTER STYLES
 *********************/
 /* line 868, ../scss/breakpoints/_base.scss */
 .footer {
+  padding: 40px 0;
   clear: both;
-  background-color: #323944;
-  color: #f8f9fa;
+  background-color: #e5d9c8;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 12px;
+  text-align: center;
+}
+/* line 876, ../scss/breakpoints/_base.scss */
+.footer .logos {
+  margin-top: 10px;
+}
+/* line 878, ../scss/breakpoints/_base.scss */
+.footer .logos a {
+  padding-left: 10px;
+}
+/* line 880, ../scss/breakpoints/_base.scss */
+.footer .logos a:first-child {
+  padding-left: 0;
+}
+/* line 882, ../scss/breakpoints/_base.scss */
+.footer .logos img {
+  vertical-align: middle;
 }
 
 /*
@@ -2458,12 +2477,27 @@ you can add resource intensive styles.
   /*********************
   FOOTER STYLES
   *********************/
+  /* line 287, ../scss/breakpoints/_768up.scss */
+  .footer {
+    text-align: left;
+  }
+  /* line 290, ../scss/breakpoints/_768up.scss */
+  .footer .text {
+    float: left;
+    margin: 0;
+  }
+  /* line 295, ../scss/breakpoints/_768up.scss */
+  .footer .logos {
+    float: right;
+    margin: 0;
+  }
+
   /*
   you'll probably need to do quite a bit
   of overriding here if you styled them for
   mobile. Make sure to double check these!
   */
-  /* line 294, ../scss/breakpoints/_768up.scss */
+  /* line 308, ../scss/breakpoints/_768up.scss */
   .footer-links ul li {
     /*
     be careful with the depth of your menus.
@@ -2651,5 +2685,150 @@ be set to display none.
   .respond-form,
   nav {
     display: none;
+  }
+}
+/* line 1, ../scss/pages/home_base.scss */
+#hero {
+  margin: 20px 0;
+  height: 400px;
+  background: linear-gradient(180deg, #111111, #212121);
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* .intro */
+  /* .cta */
+  /* .events */
+}
+/* line 7, ../scss/pages/home_base.scss */
+#hero .background {
+  margin: 0 auto;
+  max-width: 1100px;
+  height: 400px;
+  background: url("../images/hero-background.jpg") no-repeat center center;
+  overflow: hidden;
+}
+/* line 15, ../scss/pages/home_base.scss */
+#hero .wrap {
+  position: relative;
+  padding: 20px 0;
+}
+/* line 20, ../scss/pages/home_base.scss */
+#hero .intro {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+}
+/* line 25, ../scss/pages/home_base.scss */
+#hero .intro h1 {
+  margin: 0;
+  font-size: 36px;
+  line-height: 46px;
+}
+/* line 30, ../scss/pages/home_base.scss */
+#hero .intro p {
+  margin: 10px 0;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 36px;
+}
+/* line 35, ../scss/pages/home_base.scss */
+#hero .intro p span {
+  display: block;
+}
+/* line 41, ../scss/pages/home_base.scss */
+#hero .cta {
+  position: absolute;
+  left: -16px;
+  top: 0;
+  font-size: 24px;
+}
+/* line 47, ../scss/pages/home_base.scss */
+#hero .cta a {
+  position: absolute;
+  display: block;
+  width: 300px;
+  height: 300px;
+  border-radius: 10000px;
+  padding: 57px 72px;
+  text-decoration: none;
+}
+/* line 56, ../scss/pages/home_base.scss */
+#hero .cta a.about {
+  top: 260px;
+  background-color: rgba(124, 67, 67, 0.33);
+  color: #ff5555;
+}
+/* line 61, ../scss/pages/home_base.scss */
+#hero .cta a.join {
+  left: 180px;
+  top: 280px;
+  background-color: rgba(87, 124, 67, 0.33);
+  color: #66dd33;
+}
+/* line 70, ../scss/pages/home_base.scss */
+#hero .events {
+  position: absolute;
+  right: -180px;
+  top: -110px;
+  display: block;
+  width: 545px;
+  height: 545px;
+  border-radius: 10000px;
+  background-color: rgba(128, 108, 64, 0.33);
+  text-align: right;
+  color: #fff;
+}
+/* line 82, ../scss/pages/home_base.scss */
+#hero .events .content {
+  position: absolute;
+  top: 140px;
+  right: 200px;
+  width: 200px;
+}
+/* line 89, ../scss/pages/home_base.scss */
+#hero .events h1 {
+  font-size: 18px;
+  color: #ffbb55;
+}
+/* line 93, ../scss/pages/home_base.scss */
+#hero .events h2 {
+  font-size: 14px;
+}
+/* line 95, ../scss/pages/home_base.scss */
+#hero .events h2 a {
+  color: inherit;
+}
+/* line 99, ../scss/pages/home_base.scss */
+#hero .events p {
+  font-size: 11px;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+/* line 103, ../scss/pages/home_base.scss */
+#hero .events p span {
+  display: block;
+}
+
+@media only screen and (max-width: 480px) {
+  /* line 112, ../scss/pages/home_base.scss */
+  #hero, #hero .background {
+    background-size: auto 600px;
+    height: 600px;
+  }
+  /* line 117, ../scss/pages/home_base.scss */
+  #hero .cta {
+    left: -30px;
+    top: 200px;
+    z-index: 2;
+  }
+  /* line 123, ../scss/pages/home_base.scss */
+  #hero .events {
+    top: 100px;
+  }
+}
+@media only screen and (min-width: 1030px) {
+  /* line 132, ../scss/pages/home_base.scss */
+  #hero .intro {
+    position: absolute;
+    left: 50px;
+    top: 43px;
+    width: 520px;
   }
 }

@@ -1,0 +1,145 @@
+#hero {
+  margin: 20px 0;
+  height: 400px;
+  background: linear-gradient(180deg, #111111, #212121);
+  font-family: $lato;
+
+  .background {
+    margin: 0 auto;
+    max-width: 1100px;
+    height: 400px;
+    background: url('../images/hero-background.jpg') no-repeat center center;
+    overflow: hidden;
+  }
+
+  .wrap {
+    position: relative;
+    padding: 20px 0;
+  }
+
+  .intro {
+    position: relative;
+    z-index: 2;
+    color: $white;
+
+    h1 {
+      margin: 0;
+      font-size: 36px;
+      line-height: 46px;
+    }
+    p {
+      margin: 10px 0;
+      font-size: 28px;
+      font-weight: 300;
+      line-height: 36px;
+      span {
+        display: block;
+      }
+    }
+  } /* .intro */
+
+  .cta {
+    position: absolute;
+    left: -16px;
+    top: 0;
+    font-size: 24px;
+
+    a {
+      position: absolute;
+      display: block;
+      width: 300px;
+      height: 300px;
+      border-radius: 10000px;
+      padding: 57px 72px;
+      text-decoration: none;
+
+      &.about {
+        top: 260px;
+        background-color: rgba(124, 67, 67, 0.33);
+        color: $aunsw-red;
+      }
+      &.join {
+        left: 180px;
+        top: 280px;
+        background-color: rgba(87, 124, 67, 0.33);
+        color: $aunsw-green;
+      }
+    }
+  } /* .cta */
+
+  .events {
+    position: absolute;
+    right: -180px;
+    top: -110px;
+    display: block;
+    width: 545px;
+    height: 545px;
+    border-radius: 10000px;
+    background-color: rgba(128, 108, 64, 0.33);
+    text-align: right;
+    color: $white;
+
+    .content {
+      position: absolute;
+      top: 140px;
+      right: 200px;
+      width: 200px;
+    }
+
+    h1 {
+      font-size: 18px;
+      color: $aunsw-orange;
+    }
+    h2 {
+      font-size: 14px;
+      a {
+        color: inherit;
+      }
+    }
+    p {
+      font-size: 11px;
+      font-family: $open-sans;
+
+      span {
+        display: block;
+      }
+    }
+  } /* .events */
+}
+
+@media only screen and (max-width: 480px) {
+  #hero {
+    &, .background {
+      background-size: auto 600px;
+      height: 600px;
+    }
+
+    .cta {
+      left: -30px;
+      top: 200px;
+      z-index: 2;
+    }
+
+    .events {
+      top: 100px;
+    }
+  }
+} // end of media query
+
+@media only screen and (min-width: 1030px) {
+
+  #hero {
+    .intro {
+      position: absolute;
+      left: 50px;
+      top: 43px;
+      width: 520px;
+    }
+  }
+
+} // end of media query
+
+@media only screen and (min-width: 1100px) {
+
+
+} // end of media query

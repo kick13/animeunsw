@@ -284,6 +284,20 @@ SIDEBARS & ASIDES
 FOOTER STYLES
 *********************/
 
+.footer {
+	text-align: left;
+
+	.text {
+		float: left;
+		margin: 0;
+	}
+
+	.logos {
+		float: right;
+		margin: 0;
+	}
+}
+
 /*
 you'll probably need to do quite a bit
 of overriding here if you styled them for

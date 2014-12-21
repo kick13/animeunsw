@@ -449,12 +449,27 @@ SIDEBARS & ASIDES
 /*********************
 FOOTER STYLES
 *********************/
+/* line 287, ../scss/breakpoints/_768up.scss */
+.footer {
+  text-align: left;
+}
+/* line 290, ../scss/breakpoints/_768up.scss */
+.footer .text {
+  float: left;
+  margin: 0;
+}
+/* line 295, ../scss/breakpoints/_768up.scss */
+.footer .logos {
+  float: right;
+  margin: 0;
+}
+
 /*
 you'll probably need to do quite a bit
 of overriding here if you styled them for
 mobile. Make sure to double check these!
 */
-/* line 294, ../scss/breakpoints/_768up.scss */
+/* line 308, ../scss/breakpoints/_768up.scss */
 .footer-links ul li {
   /*
   be careful with the depth of your menus.
