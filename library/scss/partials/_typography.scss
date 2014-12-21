@@ -79,6 +79,10 @@ $serif:             "Georgia", Cambria, Times New Roman, Times, serif;
 $lato:              'Lato', $sans-serif;
 $open-sans:         'Open Sans', $sans-serif;
 
+h1, h2, h3 {
+  font-family: $lato;
+}
+
 /*
 some nice typographical defaults
 more here: http://www.newnet-soft.com/blog/csstypography

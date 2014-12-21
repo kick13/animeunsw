@@ -79,7 +79,9 @@ LINK STYLES
 *********************/
 
 a, a:visited {
+	text-decoration: none;
 	color: $link-color;
+	transition: .3s color;
 
 	/* on hover */
 	&:hover, &:focus {
@@ -159,6 +161,9 @@ HEADER STYLES
 
 	#logo {
 		float: left;
+		* {
+			line-height: 0;
+		}
 	}
 
 	#mascots {
@@ -261,20 +266,35 @@ POSTS & CONTENT STYLES
 }
 
 		.hentry {
-			background-color: $white;
-			border-radius: 3px;
 			margin-bottom: 1.5em;
-			border: 1px solid $border-color;
 
 			header {
-				border-bottom: 1px solid $light-gray;
-				padding: 1.5em;
+				h1 {
+					margin: 5px 0;
+					font-size: 36px;
+					color: $aunsw-purple;
+
+					&:before {
+						display: block;
+						margin: 0 0 -46px -12px;
+						width: 50px;
+						height: 50px;
+						border-radius: 9999px;
+						background-color: fade-out($aunsw-tanner, 0.33);
+						content: ' ';
+					}
+
+					a {
+						font-size: 36px;
+						color: $aunsw-purple;
+						&:hover {
+							color: lighten($aunsw-purple, 10%);
+						}
+					}
+				}
 			}
 
 			footer {
-				padding: 1.5em;
-				border-top: 1px solid $light-gray;
-
 				p {
 					margin: 0;
 				}
@@ -308,16 +328,23 @@ POSTS & CONTENT STYLES
 
 		/* post meta */
 		.byline {
-			color: $meta-gray;
-			font-style: italic;
+			font-size: 13px;
+			font-family: $lato;
+			text-transform: uppercase;
 			margin: 0;
 
-			time {}
+			&, a {
+				color: fade-out(desaturate($aunsw-purple, 20%), 0.66);
+			}
+			time {
+				color: fade-out(desaturate($aunsw-purple, 20%), 0.33);
+			}
 		}
 
 		/* entry content */
 		.entry-content {
-			padding: 1.5em 1.5em 0;
+			font-size: 16px;
+			line-height: 32px;
 
 			p {
 				margin: 0 0 1.5em;

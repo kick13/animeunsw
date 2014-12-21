@@ -1,20 +1,21 @@
 /*
 Error: Undefined variable: "$lato".
-        on line 5 of /Applications/MAMP/htdocs/animeunsw/wp-content/themes/animeunsw/library/scss/./pages/home_base.scss
+        on line 6 of /Applications/MAMP/htdocs/animeunsw/wp-content/themes/animeunsw/library/scss/./pages/home_base.scss
 
 1: #hero {
-2:   margin: 20px 0;
-3:   height: 400px;
-4:   background: linear-gradient(180deg, #111111, #212121);
-5:   font-family: $lato;
-6: 
-7:   .background {
-8:     margin: 0 auto;
-9:     max-width: 1100px;
-10:     height: 400px;
+2:   clear: both;
+3:   margin: 0 0 40px;
+4:   height: 400px;
+5:   background: linear-gradient(180deg, #111111, #212121);
+6:   font-family: $lato;
+7: 
+8:   .background {
+9:     margin: 0 auto;
+10:     max-width: 1100px;
+11:     height: 400px;
 
 Backtrace:
-/Applications/MAMP/htdocs/animeunsw/wp-content/themes/animeunsw/library/scss/./pages/home_base.scss:5
+/Applications/MAMP/htdocs/animeunsw/wp-content/themes/animeunsw/library/scss/./pages/home_base.scss:6
 /Users/richard/.gem/ruby/2.1.5/gems/sass-3.4.9/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Users/richard/.gem/ruby/2.1.5/gems/sass-3.4.9/lib/sass/script/tree/node.rb:50:in `perform'
 /Users/richard/.gem/ruby/2.1.5/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:384:in `visit_prop'
@@ -66,4 +67,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$lato\".\A         on line 5 of /Applications/MAMP/htdocs/animeunsw/wp-content/themes/animeunsw/library/scss/./pages/home_base.scss\A \A 1: #hero {\A 2:   margin: 20px 0;\A 3:   height: 400px;\A 4:   background: linear-gradient(180deg, #111111, #212121);\A 5:   font-family: $lato;\A 6: \A 7:   .background {\A 8:     margin: 0 auto;\A 9:     max-width: 1100px;\A 10:     height: 400px;"; }
+  content: "Error: Undefined variable: \"$lato\".\A         on line 6 of /Applications/MAMP/htdocs/animeunsw/wp-content/themes/animeunsw/library/scss/./pages/home_base.scss\A \A 1: #hero {\A 2:   clear: both;\A 3:   margin: 0 0 40px;\A 4:   height: 400px;\A 5:   background: linear-gradient(180deg, #111111, #212121);\A 6:   font-family: $lato;\A 7: \A 8:   .background {\A 9:     margin: 0 auto;\A 10:     max-width: 1100px;\A 11:     height: 400px;"; }

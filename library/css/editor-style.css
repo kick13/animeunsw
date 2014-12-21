@@ -342,7 +342,7 @@ body#tinymce.wp-editor {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 100%;
   line-height: 1.5;
-  color: #5c6b80;
+  color: #222;
   -webkit-font-smoothing: antialiased;
   /*********************
 	LINK STYLES
@@ -700,7 +700,11 @@ body#tinymce.wp-editor span.amp {
     font-style: normal;
   }
 }
-/* line 86, ../scss/partials/_typography.scss */
+/* line 82, ../scss/partials/_typography.scss */
+body#tinymce.wp-editor h1, body#tinymce.wp-editor h2, body#tinymce.wp-editor h3 {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+/* line 90, ../scss/partials/_typography.scss */
 body#tinymce.wp-editor p {
   -ms-word-wrap: break-word;
   word-break: break-word;

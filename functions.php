@@ -73,6 +73,7 @@ if ( ! isset( $content_width ) ) {
 /************* THUMBNAIL SIZE OPTIONS *************/
 
 // Thumbnail sizes
+add_image_size( 'aunsw-thumb-800', 800, 200, true );
 add_image_size( 'bones-thumb-600', 600, 150, true );
 add_image_size( 'bones-thumb-300', 300, 100, true );
 
@@ -100,6 +101,7 @@ add_filter( 'image_size_names_choose', 'bones_custom_image_sizes' );
 
 function bones_custom_image_sizes( $sizes ) {
     return array_merge( $sizes, array(
+        'thumb-800' => '800px by 200px',
         'bones-thumb-600' => __('600px by 150px'),
         'bones-thumb-300' => __('300px by 100px'),
     ) );
@@ -115,14 +117,14 @@ new image size.
 
 /************* THEME CUSTOMIZE *********************/
 
-/* 
+/*
   A good tutorial for creating your own Sections, Controls and Settings:
   http://code.tutsplus.com/series/a-guide-to-the-wordpress-theme-customizer--wp-33722
-  
+
   Good articles on modifying the default options:
   http://natko.com/changing-default-wordpress-theme-customization-api-sections/
   http://code.tutsplus.com/tutorials/digging-into-the-theme-customizer-components--wp-27162
-  
+
   To do:
   - Create a js for the postmessage transport method
   - Create some sanitize functions to sanitize inputs
@@ -132,7 +134,7 @@ new image size.
 function bones_theme_customizer($wp_customize) {
   // $wp_customize calls go here.
   //
-  // Uncomment the below lines to remove the default customize sections 
+  // Uncomment the below lines to remove the default customize sections
 
   // $wp_customize->remove_section('title_tagline');
   // $wp_customize->remove_section('colors');
@@ -142,7 +144,7 @@ function bones_theme_customizer($wp_customize) {
 
   // Uncomment the below lines to remove the default controls
   // $wp_customize->remove_control('blogdescription');
-  
+
   // Uncomment the following to change the default section titles
   // $wp_customize->get_section('colors')->title = __( 'Theme Colors' );
   // $wp_customize->get_section('background_image')->title = __( 'Images' );
