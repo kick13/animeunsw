@@ -333,20 +333,28 @@ HEADER STYLES
 }
 
 /*********************
+POSTS & CONTENT STYLES
+*********************/
+/* line 65, ../scss/breakpoints/_768up.scss */
+.hentry header h1 a {
+  font-size: 24px;
+}
+
+/*********************
 NAVIGATION STYLES
 *********************/
-/* line 64, ../scss/breakpoints/_768up.scss */
+/* line 74, ../scss/breakpoints/_768up.scss */
 .nav {
   border: 0;
   /* end .menu ul li */
   /* highlight current page */
   /* end current highlighters */
 }
-/* line 66, ../scss/breakpoints/_768up.scss */
+/* line 76, ../scss/breakpoints/_768up.scss */
 .nav ul {
   margin-top: 0;
 }
-/* line 69, ../scss/breakpoints/_768up.scss */
+/* line 79, ../scss/breakpoints/_768up.scss */
 .nav li {
   float: left;
   position: relative;
@@ -355,7 +363,7 @@ NAVIGATION STYLES
   */
   /* showing sub-menus */
 }
-/* line 73, ../scss/breakpoints/_768up.scss */
+/* line 83, ../scss/breakpoints/_768up.scss */
 .nav li a {
   border-bottom: 0;
   /*
@@ -363,7 +371,7 @@ NAVIGATION STYLES
   has the possibility of being a mobile device.
   */
 }
-/* line 90, ../scss/breakpoints/_768up.scss */
+/* line 100, ../scss/breakpoints/_768up.scss */
 .nav li ul.sub-menu,
 .nav li ul.children {
   margin-top: 0;
@@ -374,7 +382,7 @@ NAVIGATION STYLES
   z-index: 8999;
   /* highlight sub-menu current page */
 }
-/* line 99, ../scss/breakpoints/_768up.scss */
+/* line 109, ../scss/breakpoints/_768up.scss */
 .nav li ul.sub-menu li,
 .nav li ul.children li {
   /*
@@ -383,7 +391,7 @@ NAVIGATION STYLES
   for usability. k, bai.
   */
 }
-/* line 101, ../scss/breakpoints/_768up.scss */
+/* line 111, ../scss/breakpoints/_768up.scss */
 .nav li ul.sub-menu li a,
 .nav li ul.children li a {
   padding-left: 10px;
@@ -392,18 +400,18 @@ NAVIGATION STYLES
   width: 180px;
   border-bottom: 1px solid #ccc;
 }
-/* line 118, ../scss/breakpoints/_768up.scss */
+/* line 128, ../scss/breakpoints/_768up.scss */
 .nav li ul.sub-menu li:last-child a,
 .nav li ul.children li:last-child a {
   border-bottom: 0;
 }
-/* line 128, ../scss/breakpoints/_768up.scss */
+/* line 138, ../scss/breakpoints/_768up.scss */
 .nav li ul.sub-menu li ul,
 .nav li ul.children li ul {
   top: 0;
   left: 100%;
 }
-/* line 143, ../scss/breakpoints/_768up.scss */
+/* line 153, ../scss/breakpoints/_768up.scss */
 .nav li:hover > ul {
   top: auto;
   visibility: visible;
@@ -413,28 +421,28 @@ NAVIGATION STYLES
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 163, ../scss/breakpoints/_768up.scss */
+/* line 173, ../scss/breakpoints/_768up.scss */
 .sidebar {
   margin-top: 2.2em;
 }
 
-/* line 167, ../scss/breakpoints/_768up.scss */
+/* line 177, ../scss/breakpoints/_768up.scss */
 .widgettitle {
   border-bottom: 2px solid #444;
   margin-bottom: 0.75em;
 }
 
-/* line 172, ../scss/breakpoints/_768up.scss */
+/* line 182, ../scss/breakpoints/_768up.scss */
 .widget {
   padding: 0 10px;
   margin: 2.2em 0;
 }
-/* line 177, ../scss/breakpoints/_768up.scss */
+/* line 187, ../scss/breakpoints/_768up.scss */
 .widget ul li {
   margin-bottom: 0.75em;
   /* deep nesting */
 }
-/* line 185, ../scss/breakpoints/_768up.scss */
+/* line 195, ../scss/breakpoints/_768up.scss */
 .widget ul li ul {
   margin-top: 0.75em;
   padding-left: 1em;
@@ -454,16 +462,16 @@ SIDEBARS & ASIDES
 /*********************
 FOOTER STYLES
 *********************/
-/* line 286, ../scss/breakpoints/_768up.scss */
+/* line 296, ../scss/breakpoints/_768up.scss */
 .footer {
   text-align: left;
 }
-/* line 289, ../scss/breakpoints/_768up.scss */
+/* line 299, ../scss/breakpoints/_768up.scss */
 .footer .text {
   float: left;
   margin: 0;
 }
-/* line 294, ../scss/breakpoints/_768up.scss */
+/* line 304, ../scss/breakpoints/_768up.scss */
 .footer .logos {
   float: right;
   margin: 0;
@@ -474,7 +482,7 @@ you'll probably need to do quite a bit
 of overriding here if you styled them for
 mobile. Make sure to double check these!
 */
-/* line 307, ../scss/breakpoints/_768up.scss */
+/* line 317, ../scss/breakpoints/_768up.scss */
 .footer-links ul li {
   /*
   be careful with the depth of your menus.
