@@ -324,8 +324,9 @@ HEADER STYLES
   padding: 10px 15px;
   height: 40px;
 }
-/* line 53, ../scss/breakpoints/_768up.scss */
-.header #mascots {
+
+/* line 54, ../scss/breakpoints/_768up.scss */
+#mascots {
   float: right;
   margin-left: -100px;
   margin-right: -15px;
