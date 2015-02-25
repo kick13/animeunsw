@@ -43,24 +43,27 @@
     position: absolute;
     left: -50px;
     top: 0;
-    font-size: 24px;
+    font-size: 20px;
 
     a {
       position: absolute;
       display: block;
-      width: 300px;
+      width: 150px;
       height: 300px;
-      border-radius: 9999px;
-      padding: 57px 72px;
+      border-radius: 4px;
+      padding: 15px;
       text-decoration: none;
+      border-top-width: 4px;
+      border-top-style: solid;
 
       &.about {
+        left: 43px;
         top: 260px;
         background-color: rgba(124, 67, 67, 0.33);
         color: $aunsw-red;
       }
       &.join {
-        left: 180px;
+        left: 227px;
         top: 280px;
         background-color: rgba(87, 124, 67, 0.33);
         color: $aunsw-green;
@@ -70,24 +73,24 @@
 
   .events {
     position: absolute;
-    right: -190px;
-    top: -110px;
+    right: 0;
+    top: 20px;
     display: block;
-    width: 545px;
+    width: 250px;
     height: 545px;
-    border-radius: 9999px;
+    border-radius: 4px;
     background-color: rgba(128, 108, 64, 0.33);
     text-align: right;
     color: $white;
+    border-top: 4px solid $aunsw-orange;
 
     .content {
-      position: absolute;
-      top: 140px;
-      right: 200px;
-      width: 200px;
+      padding: 15px;
     }
 
     h1 {
+      margin: 0;
+      padding: 0;
       font-size: 18px;
       color: $aunsw-orange;
     }

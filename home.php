@@ -4,10 +4,10 @@
 	<div class="background">
 	<div class="wrap">
 		<div class="intro">
-			<h1>おはいよ〜！</h1>
+			<h1>おはよう！</h1>
 			<p>
-				Welcome to the UNSW <del>anime club </del>
-				<span>club for all things anime, manga and more!</span>
+				Welcome to the home of UNSW's love of
+				<span>anime, manga and more on the web!</span>
 			</p>
 		</div>
 		<div class="cta">
