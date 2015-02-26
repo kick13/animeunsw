@@ -160,18 +160,27 @@ HEADER STYLES
 		clear: both;
 
     // Menu item styling - see header_nav_walker.php
+		li:nth-child(even) .item-content {
+			.icon {
+				color: transparentize($aunsw-accent, 0.75);
+			}
+		}
 	  .item-content {
 	    .icon {
 				@extend .iconic;
 				display: block;
 				float: left;
 				width: 24px;
+				height: 24px;
 				font-size: 24px;
-				color: $aunsw-accent;
+				text-align: center;
+				color: transparentize($aunsw-accent, 0.5);
 	    }
 
 			.text-wrap {
 				display: block;
+				margin-top: -4px;
+				margin-left: 8px;
 				float: left;
 				font-family: $lato;
 				font-size: 11px;
