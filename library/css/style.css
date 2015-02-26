@@ -664,608 +664,608 @@ p {
   font-style: normal;
 }
 /* line 121, ../scss/partials/_typography.scss */
-.iconic, .header .nav .item-content .icon {
+.iconic, .header .nav li .item-content .icon {
   display: inline-block;
   font-family: IconicFill;
 }
 /* line 124, ../scss/partials/_typography.scss */
-.iconic.hash:before, .header .nav .item-content .hash.icon:before {
+.iconic.hash:before, .header .nav li .item-content .hash.icon:before {
   content: "#";
 }
 /* line 125, ../scss/partials/_typography.scss */
-.iconic.question_mark:before, .header .nav .item-content .question_mark.icon:before, .header .nav .item-content.about .icon:before {
+.iconic.question_mark:before, .header .nav li .item-content .question_mark.icon:before, .header .nav li .item-content.about .icon:before {
   content: "?";
 }
 /* line 126, ../scss/partials/_typography.scss */
-.iconic.at:before, .header .nav .item-content .at.icon:before {
+.iconic.at:before, .header .nav li .item-content .at.icon:before {
   content: "@";
 }
 /* line 127, ../scss/partials/_typography.scss */
-.iconic.pilcrow:before, .header .nav .item-content .pilcrow.icon:before {
+.iconic.pilcrow:before, .header .nav li .item-content .pilcrow.icon:before {
   content: "¶";
 }
 /* line 128, ../scss/partials/_typography.scss */
-.iconic.info:before, .header .nav .item-content .info.icon:before {
+.iconic.info:before, .header .nav li .item-content .info.icon:before {
   content: "ℹ";
 }
 /* line 129, ../scss/partials/_typography.scss */
-.iconic.arrow_left:before, .header .nav .item-content .arrow_left.icon:before {
+.iconic.arrow_left:before, .header .nav li .item-content .arrow_left.icon:before {
   content: "←";
 }
 /* line 130, ../scss/partials/_typography.scss */
-.iconic.arrow_up:before, .header .nav .item-content .arrow_up.icon:before {
+.iconic.arrow_up:before, .header .nav li .item-content .arrow_up.icon:before {
   content: "↑";
 }
 /* line 131, ../scss/partials/_typography.scss */
-.iconic.arrow_right:before, .header .nav .item-content .arrow_right.icon:before {
+.iconic.arrow_right:before, .header .nav li .item-content .arrow_right.icon:before {
   content: "→";
 }
 /* line 132, ../scss/partials/_typography.scss */
-.iconic.arrow_down:before, .header .nav .item-content .arrow_down.icon:before {
+.iconic.arrow_down:before, .header .nav li .item-content .arrow_down.icon:before {
   content: "↓";
 }
 /* line 133, ../scss/partials/_typography.scss */
-.iconic.home:before, .header .nav .item-content .home.icon:before, .header .nav .item-content.home .icon:before {
+.iconic.home:before, .header .nav li .item-content .home.icon:before, .header .nav li .item-content.home .icon:before {
   content: "⌂";
 }
 /* line 134, ../scss/partials/_typography.scss */
-.iconic.sun_fill:before, .header .nav .item-content .sun_fill.icon:before {
+.iconic.sun_fill:before, .header .nav li .item-content .sun_fill.icon:before {
   content: "☀";
 }
 /* line 135, ../scss/partials/_typography.scss */
-.iconic.cloud:before, .header .nav .item-content .cloud.icon:before {
+.iconic.cloud:before, .header .nav li .item-content .cloud.icon:before {
   content: "☁";
 }
 /* line 136, ../scss/partials/_typography.scss */
-.iconic.umbrella:before, .header .nav .item-content .umbrella.icon:before {
+.iconic.umbrella:before, .header .nav li .item-content .umbrella.icon:before {
   content: "☂";
 }
 /* line 137, ../scss/partials/_typography.scss */
-.iconic.star:before, .header .nav .item-content .star.icon:before {
+.iconic.star:before, .header .nav li .item-content .star.icon:before {
   content: "★";
 }
 /* line 138, ../scss/partials/_typography.scss */
-.iconic.moon_fill:before, .header .nav .item-content .moon_fill.icon:before {
+.iconic.moon_fill:before, .header .nav li .item-content .moon_fill.icon:before {
   content: "☾";
 }
 /* line 139, ../scss/partials/_typography.scss */
-.iconic.heart_fill:before, .header .nav .item-content .heart_fill.icon:before, .header .nav .item-content.sponsors .icon:before {
+.iconic.heart_fill:before, .header .nav li .item-content .heart_fill.icon:before, .header .nav li .item-content.sponsors .icon:before {
   content: "❤";
 }
 /* line 140, ../scss/partials/_typography.scss */
-.iconic.cog:before, .header .nav .item-content .cog.icon:before {
+.iconic.cog:before, .header .nav li .item-content .cog.icon:before {
   content: "⚙";
 }
 /* line 141, ../scss/partials/_typography.scss */
-.iconic.bolt:before, .header .nav .item-content .bolt.icon:before {
+.iconic.bolt:before, .header .nav li .item-content .bolt.icon:before {
   content: "⚡";
 }
 /* line 142, ../scss/partials/_typography.scss */
-.iconic.key_fill:before, .header .nav .item-content .key_fill.icon:before {
+.iconic.key_fill:before, .header .nav li .item-content .key_fill.icon:before {
   content: "⚿";
 }
 /* line 143, ../scss/partials/_typography.scss */
-.iconic.rain:before, .header .nav .item-content .rain.icon:before {
+.iconic.rain:before, .header .nav li .item-content .rain.icon:before {
   content: "⛆";
 }
 /* line 144, ../scss/partials/_typography.scss */
-.iconic.denied:before, .header .nav .item-content .denied.icon:before {
+.iconic.denied:before, .header .nav li .item-content .denied.icon:before {
   content: "⛔";
 }
 /* line 145, ../scss/partials/_typography.scss */
-.iconic.mail:before, .header .nav .item-content .mail.icon:before {
+.iconic.mail:before, .header .nav li .item-content .mail.icon:before {
   content: "✉";
 }
 /* line 146, ../scss/partials/_typography.scss */
-.iconic.pen:before, .header .nav .item-content .pen.icon:before {
+.iconic.pen:before, .header .nav li .item-content .pen.icon:before {
   content: "✎";
 }
 /* line 147, ../scss/partials/_typography.scss */
-.iconic.check:before, .header .nav .item-content .check.icon:before {
+.iconic.check:before, .header .nav li .item-content .check.icon:before {
   content: "✓";
 }
 /* line 148, ../scss/partials/_typography.scss */
-.iconic.check_alt:before, .header .nav .item-content .check_alt.icon:before {
+.iconic.check_alt:before, .header .nav li .item-content .check_alt.icon:before {
   content: "✔";
 }
 /* line 149, ../scss/partials/_typography.scss */
-.iconic.x:before, .header .nav .item-content .x.icon:before {
+.iconic.x:before, .header .nav li .item-content .x.icon:before {
   content: "✗";
 }
 /* line 150, ../scss/partials/_typography.scss */
-.iconic.x_alt:before, .header .nav .item-content .x_alt.icon:before {
+.iconic.x_alt:before, .header .nav li .item-content .x_alt.icon:before {
   content: "✘";
 }
 /* line 151, ../scss/partials/_typography.scss */
-.iconic.left_quote:before, .header .nav .item-content .left_quote.icon:before {
+.iconic.left_quote:before, .header .nav li .item-content .left_quote.icon:before {
   content: "❝";
 }
 /* line 152, ../scss/partials/_typography.scss */
-.iconic.right_quote:before, .header .nav .item-content .right_quote.icon:before {
+.iconic.right_quote:before, .header .nav li .item-content .right_quote.icon:before {
   content: "❞";
 }
 /* line 153, ../scss/partials/_typography.scss */
-.iconic.plus:before, .header .nav .item-content .plus.icon:before {
+.iconic.plus:before, .header .nav li .item-content .plus.icon:before {
   content: "➕";
 }
 /* line 154, ../scss/partials/_typography.scss */
-.iconic.minus:before, .header .nav .item-content .minus.icon:before {
+.iconic.minus:before, .header .nav li .item-content .minus.icon:before {
   content: "➖";
 }
 /* line 155, ../scss/partials/_typography.scss */
-.iconic.curved_arrow:before, .header .nav .item-content .curved_arrow.icon:before {
+.iconic.curved_arrow:before, .header .nav li .item-content .curved_arrow.icon:before {
   content: "⤵";
 }
 /* line 156, ../scss/partials/_typography.scss */
-.iconic.document_alt_fill:before, .header .nav .item-content .document_alt_fill.icon:before {
+.iconic.document_alt_fill:before, .header .nav li .item-content .document_alt_fill.icon:before {
   content: "";
 }
 /* line 157, ../scss/partials/_typography.scss */
-.iconic.calendar:before, .header .nav .item-content .calendar.icon:before {
+.iconic.calendar:before, .header .nav li .item-content .calendar.icon:before {
   content: "";
 }
 /* line 158, ../scss/partials/_typography.scss */
-.iconic.map_pin_alt:before, .header .nav .item-content .map_pin_alt.icon:before {
+.iconic.map_pin_alt:before, .header .nav li .item-content .map_pin_alt.icon:before {
   content: "";
 }
 /* line 159, ../scss/partials/_typography.scss */
-.iconic.comment_alt1_fill:before, .header .nav .item-content .comment_alt1_fill.icon:before {
+.iconic.comment_alt1_fill:before, .header .nav li .item-content .comment_alt1_fill.icon:before {
   content: "";
 }
 /* line 160, ../scss/partials/_typography.scss */
-.iconic.comment_alt2_fill:before, .header .nav .item-content .comment_alt2_fill.icon:before {
+.iconic.comment_alt2_fill:before, .header .nav li .item-content .comment_alt2_fill.icon:before {
   content: "";
 }
 /* line 161, ../scss/partials/_typography.scss */
-.iconic.pen_alt_fill:before, .header .nav .item-content .pen_alt_fill.icon:before {
+.iconic.pen_alt_fill:before, .header .nav li .item-content .pen_alt_fill.icon:before {
   content: "";
 }
 /* line 162, ../scss/partials/_typography.scss */
-.iconic.pen_alt2:before, .header .nav .item-content .pen_alt2.icon:before {
+.iconic.pen_alt2:before, .header .nav li .item-content .pen_alt2.icon:before {
   content: "";
 }
 /* line 163, ../scss/partials/_typography.scss */
-.iconic.chat_alt_fill:before, .header .nav .item-content .chat_alt_fill.icon:before {
+.iconic.chat_alt_fill:before, .header .nav li .item-content .chat_alt_fill.icon:before {
   content: "";
 }
 /* line 164, ../scss/partials/_typography.scss */
-.iconic.plus_alt:before, .header .nav .item-content .plus_alt.icon:before {
+.iconic.plus_alt:before, .header .nav li .item-content .plus_alt.icon:before {
   content: "";
 }
 /* line 165, ../scss/partials/_typography.scss */
-.iconic.minus_alt:before, .header .nav .item-content .minus_alt.icon:before {
+.iconic.minus_alt:before, .header .nav li .item-content .minus_alt.icon:before {
   content: "";
 }
 /* line 166, ../scss/partials/_typography.scss */
-.iconic.bars_alt:before, .header .nav .item-content .bars_alt.icon:before {
+.iconic.bars_alt:before, .header .nav li .item-content .bars_alt.icon:before {
   content: "";
 }
 /* line 167, ../scss/partials/_typography.scss */
-.iconic.book_alt:before, .header .nav .item-content .book_alt.icon:before {
+.iconic.book_alt:before, .header .nav li .item-content .book_alt.icon:before {
   content: "";
 }
 /* line 168, ../scss/partials/_typography.scss */
-.iconic.aperture_alt:before, .header .nav .item-content .aperture_alt.icon:before {
+.iconic.aperture_alt:before, .header .nav li .item-content .aperture_alt.icon:before {
   content: "";
 }
 /* line 169, ../scss/partials/_typography.scss */
-.iconic.beaker_alt:before, .header .nav .item-content .beaker_alt.icon:before {
+.iconic.beaker_alt:before, .header .nav li .item-content .beaker_alt.icon:before {
   content: "";
 }
 /* line 170, ../scss/partials/_typography.scss */
-.iconic.left_quote_alt:before, .header .nav .item-content .left_quote_alt.icon:before {
+.iconic.left_quote_alt:before, .header .nav li .item-content .left_quote_alt.icon:before {
   content: "";
 }
 /* line 171, ../scss/partials/_typography.scss */
-.iconic.right_quote_alt:before, .header .nav .item-content .right_quote_alt.icon:before {
+.iconic.right_quote_alt:before, .header .nav li .item-content .right_quote_alt.icon:before {
   content: "";
 }
 /* line 172, ../scss/partials/_typography.scss */
-.iconic.arrow_left_alt1:before, .header .nav .item-content .arrow_left_alt1.icon:before {
+.iconic.arrow_left_alt1:before, .header .nav li .item-content .arrow_left_alt1.icon:before {
   content: "";
 }
 /* line 173, ../scss/partials/_typography.scss */
-.iconic.arrow_up_alt1:before, .header .nav .item-content .arrow_up_alt1.icon:before {
+.iconic.arrow_up_alt1:before, .header .nav li .item-content .arrow_up_alt1.icon:before {
   content: "";
 }
 /* line 174, ../scss/partials/_typography.scss */
-.iconic.arrow_right_alt1:before, .header .nav .item-content .arrow_right_alt1.icon:before {
+.iconic.arrow_right_alt1:before, .header .nav li .item-content .arrow_right_alt1.icon:before {
   content: "";
 }
 /* line 175, ../scss/partials/_typography.scss */
-.iconic.arrow_down_alt1:before, .header .nav .item-content .arrow_down_alt1.icon:before {
+.iconic.arrow_down_alt1:before, .header .nav li .item-content .arrow_down_alt1.icon:before {
   content: "";
 }
 /* line 176, ../scss/partials/_typography.scss */
-.iconic.arrow_left_alt2:before, .header .nav .item-content .arrow_left_alt2.icon:before {
+.iconic.arrow_left_alt2:before, .header .nav li .item-content .arrow_left_alt2.icon:before {
   content: "";
 }
 /* line 177, ../scss/partials/_typography.scss */
-.iconic.arrow_up_alt2:before, .header .nav .item-content .arrow_up_alt2.icon:before {
+.iconic.arrow_up_alt2:before, .header .nav li .item-content .arrow_up_alt2.icon:before {
   content: "";
 }
 /* line 178, ../scss/partials/_typography.scss */
-.iconic.arrow_right_alt2:before, .header .nav .item-content .arrow_right_alt2.icon:before {
+.iconic.arrow_right_alt2:before, .header .nav li .item-content .arrow_right_alt2.icon:before {
   content: "";
 }
 /* line 179, ../scss/partials/_typography.scss */
-.iconic.arrow_down_alt2:before, .header .nav .item-content .arrow_down_alt2.icon:before {
+.iconic.arrow_down_alt2:before, .header .nav li .item-content .arrow_down_alt2.icon:before {
   content: "";
 }
 /* line 180, ../scss/partials/_typography.scss */
-.iconic.brush:before, .header .nav .item-content .brush.icon:before {
+.iconic.brush:before, .header .nav li .item-content .brush.icon:before {
   content: "";
 }
 /* line 181, ../scss/partials/_typography.scss */
-.iconic.brush_alt:before, .header .nav .item-content .brush_alt.icon:before {
+.iconic.brush_alt:before, .header .nav li .item-content .brush_alt.icon:before {
   content: "";
 }
 /* line 182, ../scss/partials/_typography.scss */
-.iconic.eyedropper:before, .header .nav .item-content .eyedropper.icon:before {
+.iconic.eyedropper:before, .header .nav li .item-content .eyedropper.icon:before {
   content: "";
 }
 /* line 183, ../scss/partials/_typography.scss */
-.iconic.layers:before, .header .nav .item-content .layers.icon:before {
+.iconic.layers:before, .header .nav li .item-content .layers.icon:before {
   content: "";
 }
 /* line 184, ../scss/partials/_typography.scss */
-.iconic.layers_alt:before, .header .nav .item-content .layers_alt.icon:before {
+.iconic.layers_alt:before, .header .nav li .item-content .layers_alt.icon:before {
   content: "";
 }
 /* line 185, ../scss/partials/_typography.scss */
-.iconic.compass:before, .header .nav .item-content .compass.icon:before {
+.iconic.compass:before, .header .nav li .item-content .compass.icon:before {
   content: "";
 }
 /* line 186, ../scss/partials/_typography.scss */
-.iconic.award_fill:before, .header .nav .item-content .award_fill.icon:before {
+.iconic.award_fill:before, .header .nav li .item-content .award_fill.icon:before {
   content: "";
 }
 /* line 187, ../scss/partials/_typography.scss */
-.iconic.beaker:before, .header .nav .item-content .beaker.icon:before {
+.iconic.beaker:before, .header .nav li .item-content .beaker.icon:before {
   content: "";
 }
 /* line 188, ../scss/partials/_typography.scss */
-.iconic.steering_wheel:before, .header .nav .item-content .steering_wheel.icon:before {
+.iconic.steering_wheel:before, .header .nav li .item-content .steering_wheel.icon:before {
   content: "";
 }
 /* line 189, ../scss/partials/_typography.scss */
-.iconic.eye:before, .header .nav .item-content .eye.icon:before {
+.iconic.eye:before, .header .nav li .item-content .eye.icon:before {
   content: "";
 }
 /* line 190, ../scss/partials/_typography.scss */
-.iconic.aperture:before, .header .nav .item-content .aperture.icon:before {
+.iconic.aperture:before, .header .nav li .item-content .aperture.icon:before {
   content: "";
 }
 /* line 191, ../scss/partials/_typography.scss */
-.iconic.image:before, .header .nav .item-content .image.icon:before {
+.iconic.image:before, .header .nav li .item-content .image.icon:before {
   content: "";
 }
 /* line 192, ../scss/partials/_typography.scss */
-.iconic.chart:before, .header .nav .item-content .chart.icon:before {
+.iconic.chart:before, .header .nav li .item-content .chart.icon:before {
   content: "";
 }
 /* line 193, ../scss/partials/_typography.scss */
-.iconic.chart_alt:before, .header .nav .item-content .chart_alt.icon:before {
+.iconic.chart_alt:before, .header .nav li .item-content .chart_alt.icon:before {
   content: "";
 }
 /* line 194, ../scss/partials/_typography.scss */
-.iconic.target:before, .header .nav .item-content .target.icon:before {
+.iconic.target:before, .header .nav li .item-content .target.icon:before {
   content: "";
 }
 /* line 195, ../scss/partials/_typography.scss */
-.iconic.tag_fill:before, .header .nav .item-content .tag_fill.icon:before {
+.iconic.tag_fill:before, .header .nav li .item-content .tag_fill.icon:before {
   content: "";
 }
 /* line 196, ../scss/partials/_typography.scss */
-.iconic.rss:before, .header .nav .item-content .rss.icon:before {
+.iconic.rss:before, .header .nav li .item-content .rss.icon:before {
   content: "";
 }
 /* line 197, ../scss/partials/_typography.scss */
-.iconic.rss_alt:before, .header .nav .item-content .rss_alt.icon:before {
+.iconic.rss_alt:before, .header .nav li .item-content .rss_alt.icon:before {
   content: "";
 }
 /* line 198, ../scss/partials/_typography.scss */
-.iconic.share:before, .header .nav .item-content .share.icon:before {
+.iconic.share:before, .header .nav li .item-content .share.icon:before {
   content: "";
 }
 /* line 199, ../scss/partials/_typography.scss */
-.iconic.undo:before, .header .nav .item-content .undo.icon:before {
+.iconic.undo:before, .header .nav li .item-content .undo.icon:before {
   content: "";
 }
 /* line 200, ../scss/partials/_typography.scss */
-.iconic.reload:before, .header .nav .item-content .reload.icon:before {
+.iconic.reload:before, .header .nav li .item-content .reload.icon:before {
   content: "";
 }
 /* line 201, ../scss/partials/_typography.scss */
-.iconic.reload_alt:before, .header .nav .item-content .reload_alt.icon:before {
+.iconic.reload_alt:before, .header .nav li .item-content .reload_alt.icon:before {
   content: "";
 }
 /* line 202, ../scss/partials/_typography.scss */
-.iconic.loop_alt1:before, .header .nav .item-content .loop_alt1.icon:before {
+.iconic.loop_alt1:before, .header .nav li .item-content .loop_alt1.icon:before {
   content: "";
 }
 /* line 203, ../scss/partials/_typography.scss */
-.iconic.loop_alt2:before, .header .nav .item-content .loop_alt2.icon:before {
+.iconic.loop_alt2:before, .header .nav li .item-content .loop_alt2.icon:before {
   content: "";
 }
 /* line 204, ../scss/partials/_typography.scss */
-.iconic.loop_alt3:before, .header .nav .item-content .loop_alt3.icon:before {
+.iconic.loop_alt3:before, .header .nav li .item-content .loop_alt3.icon:before {
   content: "";
 }
 /* line 205, ../scss/partials/_typography.scss */
-.iconic.loop_alt4:before, .header .nav .item-content .loop_alt4.icon:before {
+.iconic.loop_alt4:before, .header .nav li .item-content .loop_alt4.icon:before {
   content: "";
 }
 /* line 206, ../scss/partials/_typography.scss */
-.iconic.spin:before, .header .nav .item-content .spin.icon:before {
+.iconic.spin:before, .header .nav li .item-content .spin.icon:before {
   content: "";
 }
 /* line 207, ../scss/partials/_typography.scss */
-.iconic.spin_alt:before, .header .nav .item-content .spin_alt.icon:before {
+.iconic.spin_alt:before, .header .nav li .item-content .spin_alt.icon:before {
   content: "";
 }
 /* line 208, ../scss/partials/_typography.scss */
-.iconic.move_horizontal:before, .header .nav .item-content .move_horizontal.icon:before {
+.iconic.move_horizontal:before, .header .nav li .item-content .move_horizontal.icon:before {
   content: "";
 }
 /* line 209, ../scss/partials/_typography.scss */
-.iconic.move_horizontal_alt1:before, .header .nav .item-content .move_horizontal_alt1.icon:before {
+.iconic.move_horizontal_alt1:before, .header .nav li .item-content .move_horizontal_alt1.icon:before {
   content: "";
 }
 /* line 210, ../scss/partials/_typography.scss */
-.iconic.move_horizontal_alt2:before, .header .nav .item-content .move_horizontal_alt2.icon:before {
+.iconic.move_horizontal_alt2:before, .header .nav li .item-content .move_horizontal_alt2.icon:before {
   content: "";
 }
 /* line 211, ../scss/partials/_typography.scss */
-.iconic.move_vertical:before, .header .nav .item-content .move_vertical.icon:before {
+.iconic.move_vertical:before, .header .nav li .item-content .move_vertical.icon:before {
   content: "";
 }
 /* line 212, ../scss/partials/_typography.scss */
-.iconic.move_vertical_alt1:before, .header .nav .item-content .move_vertical_alt1.icon:before {
+.iconic.move_vertical_alt1:before, .header .nav li .item-content .move_vertical_alt1.icon:before {
   content: "";
 }
 /* line 213, ../scss/partials/_typography.scss */
-.iconic.move_vertical_alt2:before, .header .nav .item-content .move_vertical_alt2.icon:before {
+.iconic.move_vertical_alt2:before, .header .nav li .item-content .move_vertical_alt2.icon:before {
   content: "";
 }
 /* line 214, ../scss/partials/_typography.scss */
-.iconic.move:before, .header .nav .item-content .move.icon:before {
+.iconic.move:before, .header .nav li .item-content .move.icon:before {
   content: "";
 }
 /* line 215, ../scss/partials/_typography.scss */
-.iconic.move_alt1:before, .header .nav .item-content .move_alt1.icon:before {
+.iconic.move_alt1:before, .header .nav li .item-content .move_alt1.icon:before {
   content: "";
 }
 /* line 216, ../scss/partials/_typography.scss */
-.iconic.move_alt2:before, .header .nav .item-content .move_alt2.icon:before {
+.iconic.move_alt2:before, .header .nav li .item-content .move_alt2.icon:before {
   content: "";
 }
 /* line 217, ../scss/partials/_typography.scss */
-.iconic.transfer:before, .header .nav .item-content .transfer.icon:before {
+.iconic.transfer:before, .header .nav li .item-content .transfer.icon:before {
   content: "";
 }
 /* line 218, ../scss/partials/_typography.scss */
-.iconic.download:before, .header .nav .item-content .download.icon:before {
+.iconic.download:before, .header .nav li .item-content .download.icon:before {
   content: "";
 }
 /* line 219, ../scss/partials/_typography.scss */
-.iconic.upload:before, .header .nav .item-content .upload.icon:before {
+.iconic.upload:before, .header .nav li .item-content .upload.icon:before {
   content: "";
 }
 /* line 220, ../scss/partials/_typography.scss */
-.iconic.cloud_download:before, .header .nav .item-content .cloud_download.icon:before {
+.iconic.cloud_download:before, .header .nav li .item-content .cloud_download.icon:before {
   content: "";
 }
 /* line 221, ../scss/partials/_typography.scss */
-.iconic.cloud_upload:before, .header .nav .item-content .cloud_upload.icon:before {
+.iconic.cloud_upload:before, .header .nav li .item-content .cloud_upload.icon:before {
   content: "";
 }
 /* line 222, ../scss/partials/_typography.scss */
-.iconic.fork:before, .header .nav .item-content .fork.icon:before {
+.iconic.fork:before, .header .nav li .item-content .fork.icon:before {
   content: "";
 }
 /* line 223, ../scss/partials/_typography.scss */
-.iconic.play:before, .header .nav .item-content .play.icon:before {
+.iconic.play:before, .header .nav li .item-content .play.icon:before {
   content: "";
 }
 /* line 224, ../scss/partials/_typography.scss */
-.iconic.play_alt:before, .header .nav .item-content .play_alt.icon:before {
+.iconic.play_alt:before, .header .nav li .item-content .play_alt.icon:before {
   content: "";
 }
 /* line 225, ../scss/partials/_typography.scss */
-.iconic.pause:before, .header .nav .item-content .pause.icon:before {
+.iconic.pause:before, .header .nav li .item-content .pause.icon:before {
   content: "";
 }
 /* line 226, ../scss/partials/_typography.scss */
-.iconic.stop:before, .header .nav .item-content .stop.icon:before {
+.iconic.stop:before, .header .nav li .item-content .stop.icon:before {
   content: "";
 }
 /* line 227, ../scss/partials/_typography.scss */
-.iconic.eject:before, .header .nav .item-content .eject.icon:before {
+.iconic.eject:before, .header .nav li .item-content .eject.icon:before {
   content: "";
 }
 /* line 228, ../scss/partials/_typography.scss */
-.iconic.first:before, .header .nav .item-content .first.icon:before {
+.iconic.first:before, .header .nav li .item-content .first.icon:before {
   content: "";
 }
 /* line 229, ../scss/partials/_typography.scss */
-.iconic.last:before, .header .nav .item-content .last.icon:before {
+.iconic.last:before, .header .nav li .item-content .last.icon:before {
   content: "";
 }
 /* line 230, ../scss/partials/_typography.scss */
-.iconic.fullscreen:before, .header .nav .item-content .fullscreen.icon:before {
+.iconic.fullscreen:before, .header .nav li .item-content .fullscreen.icon:before {
   content: "";
 }
 /* line 231, ../scss/partials/_typography.scss */
-.iconic.fullscreen_alt:before, .header .nav .item-content .fullscreen_alt.icon:before {
+.iconic.fullscreen_alt:before, .header .nav li .item-content .fullscreen_alt.icon:before {
   content: "";
 }
 /* line 232, ../scss/partials/_typography.scss */
-.iconic.fullscreen_exit:before, .header .nav .item-content .fullscreen_exit.icon:before {
+.iconic.fullscreen_exit:before, .header .nav li .item-content .fullscreen_exit.icon:before {
   content: "";
 }
 /* line 233, ../scss/partials/_typography.scss */
-.iconic.fullscreen_exit_alt:before, .header .nav .item-content .fullscreen_exit_alt.icon:before {
+.iconic.fullscreen_exit_alt:before, .header .nav li .item-content .fullscreen_exit_alt.icon:before {
   content: "";
 }
 /* line 234, ../scss/partials/_typography.scss */
-.iconic.equalizer:before, .header .nav .item-content .equalizer.icon:before {
+.iconic.equalizer:before, .header .nav li .item-content .equalizer.icon:before {
   content: "";
 }
 /* line 235, ../scss/partials/_typography.scss */
-.iconic.article:before, .header .nav .item-content .article.icon:before {
+.iconic.article:before, .header .nav li .item-content .article.icon:before {
   content: "";
 }
 /* line 236, ../scss/partials/_typography.scss */
-.iconic.read_more:before, .header .nav .item-content .read_more.icon:before {
+.iconic.read_more:before, .header .nav li .item-content .read_more.icon:before {
   content: "";
 }
 /* line 237, ../scss/partials/_typography.scss */
-.iconic.list:before, .header .nav .item-content .list.icon:before {
+.iconic.list:before, .header .nav li .item-content .list.icon:before {
   content: "";
 }
 /* line 238, ../scss/partials/_typography.scss */
-.iconic.list_nested:before, .header .nav .item-content .list_nested.icon:before {
+.iconic.list_nested:before, .header .nav li .item-content .list_nested.icon:before {
   content: "";
 }
 /* line 239, ../scss/partials/_typography.scss */
-.iconic.cursor:before, .header .nav .item-content .cursor.icon:before {
+.iconic.cursor:before, .header .nav li .item-content .cursor.icon:before {
   content: "";
 }
 /* line 240, ../scss/partials/_typography.scss */
-.iconic.dial:before, .header .nav .item-content .dial.icon:before {
+.iconic.dial:before, .header .nav li .item-content .dial.icon:before {
   content: "";
 }
 /* line 241, ../scss/partials/_typography.scss */
-.iconic.new_window:before, .header .nav .item-content .new_window.icon:before {
+.iconic.new_window:before, .header .nav li .item-content .new_window.icon:before {
   content: "";
 }
 /* line 242, ../scss/partials/_typography.scss */
-.iconic.trash_fill:before, .header .nav .item-content .trash_fill.icon:before {
+.iconic.trash_fill:before, .header .nav li .item-content .trash_fill.icon:before {
   content: "";
 }
 /* line 243, ../scss/partials/_typography.scss */
-.iconic.battery_half:before, .header .nav .item-content .battery_half.icon:before {
+.iconic.battery_half:before, .header .nav li .item-content .battery_half.icon:before {
   content: "";
 }
 /* line 244, ../scss/partials/_typography.scss */
-.iconic.battery_empty:before, .header .nav .item-content .battery_empty.icon:before {
+.iconic.battery_empty:before, .header .nav li .item-content .battery_empty.icon:before {
   content: "";
 }
 /* line 245, ../scss/partials/_typography.scss */
-.iconic.battery_charging:before, .header .nav .item-content .battery_charging.icon:before {
+.iconic.battery_charging:before, .header .nav li .item-content .battery_charging.icon:before {
   content: "";
 }
 /* line 246, ../scss/partials/_typography.scss */
-.iconic.chat:before, .header .nav .item-content .chat.icon:before {
+.iconic.chat:before, .header .nav li .item-content .chat.icon:before {
   content: "";
 }
 /* line 247, ../scss/partials/_typography.scss */
-.iconic.mic:before, .header .nav .item-content .mic.icon:before {
+.iconic.mic:before, .header .nav li .item-content .mic.icon:before {
   content: "";
 }
 /* line 248, ../scss/partials/_typography.scss */
-.iconic.movie:before, .header .nav .item-content .movie.icon:before {
+.iconic.movie:before, .header .nav li .item-content .movie.icon:before {
   content: "";
 }
 /* line 249, ../scss/partials/_typography.scss */
-.iconic.headphones:before, .header .nav .item-content .headphones.icon:before {
+.iconic.headphones:before, .header .nav li .item-content .headphones.icon:before {
   content: "";
 }
 /* line 250, ../scss/partials/_typography.scss */
-.iconic.user:before, .header .nav .item-content .user.icon:before {
+.iconic.user:before, .header .nav li .item-content .user.icon:before {
   content: "";
 }
 /* line 251, ../scss/partials/_typography.scss */
-.iconic.lightbulb:before, .header .nav .item-content .lightbulb.icon:before {
+.iconic.lightbulb:before, .header .nav li .item-content .lightbulb.icon:before {
   content: "";
 }
 /* line 252, ../scss/partials/_typography.scss */
-.iconic.cd:before, .header .nav .item-content .cd.icon:before {
+.iconic.cd:before, .header .nav li .item-content .cd.icon:before {
   content: "";
 }
 /* line 253, ../scss/partials/_typography.scss */
-.iconic.folder_fill:before, .header .nav .item-content .folder_fill.icon:before {
+.iconic.folder_fill:before, .header .nav li .item-content .folder_fill.icon:before {
   content: "";
 }
 /* line 254, ../scss/partials/_typography.scss */
-.iconic.document_fill:before, .header .nav .item-content .document_fill.icon:before {
+.iconic.document_fill:before, .header .nav li .item-content .document_fill.icon:before {
   content: "";
 }
 /* line 255, ../scss/partials/_typography.scss */
-.iconic.pin:before, .header .nav .item-content .pin.icon:before {
+.iconic.pin:before, .header .nav li .item-content .pin.icon:before {
   content: "";
 }
 /* line 256, ../scss/partials/_typography.scss */
-.iconic.map_pin_fill:before, .header .nav .item-content .map_pin_fill.icon:before {
+.iconic.map_pin_fill:before, .header .nav li .item-content .map_pin_fill.icon:before {
   content: "";
 }
 /* line 257, ../scss/partials/_typography.scss */
-.iconic.book:before, .header .nav .item-content .book.icon:before {
+.iconic.book:before, .header .nav li .item-content .book.icon:before {
   content: "";
 }
 /* line 258, ../scss/partials/_typography.scss */
-.iconic.book_alt2:before, .header .nav .item-content .book_alt2.icon:before {
+.iconic.book_alt2:before, .header .nav li .item-content .book_alt2.icon:before {
   content: "";
 }
 /* line 259, ../scss/partials/_typography.scss */
-.iconic.box:before, .header .nav .item-content .box.icon:before {
+.iconic.box:before, .header .nav li .item-content .box.icon:before {
   content: "";
 }
 /* line 260, ../scss/partials/_typography.scss */
-.iconic.calendar_alt_fill:before, .header .nav .item-content .calendar_alt_fill.icon:before, .header .nav .item-content.events .icon:before {
+.iconic.calendar_alt_fill:before, .header .nav li .item-content .calendar_alt_fill.icon:before, .header .nav li .item-content.events .icon:before {
   content: "";
 }
 /* line 261, ../scss/partials/_typography.scss */
-.iconic.comment_fill:before, .header .nav .item-content .comment_fill.icon:before {
+.iconic.comment_fill:before, .header .nav li .item-content .comment_fill.icon:before {
   content: "";
 }
 /* line 262, ../scss/partials/_typography.scss */
-.iconic.iphone:before, .header .nav .item-content .iphone.icon:before {
+.iconic.iphone:before, .header .nav li .item-content .iphone.icon:before {
   content: "";
 }
 /* line 263, ../scss/partials/_typography.scss */
-.iconic.bars:before, .header .nav .item-content .bars.icon:before {
+.iconic.bars:before, .header .nav li .item-content .bars.icon:before {
   content: "";
 }
 /* line 264, ../scss/partials/_typography.scss */
-.iconic.camera:before, .header .nav .item-content .camera.icon:before {
+.iconic.camera:before, .header .nav li .item-content .camera.icon:before {
   content: "";
 }
 /* line 265, ../scss/partials/_typography.scss */
-.iconic.volume_mute:before, .header .nav .item-content .volume_mute.icon:before {
+.iconic.volume_mute:before, .header .nav li .item-content .volume_mute.icon:before {
   content: "";
 }
 /* line 266, ../scss/partials/_typography.scss */
-.iconic.volume:before, .header .nav .item-content .volume.icon:before {
+.iconic.volume:before, .header .nav li .item-content .volume.icon:before {
   content: "";
 }
 /* line 267, ../scss/partials/_typography.scss */
-.iconic.battery_full:before, .header .nav .item-content .battery_full.icon:before {
+.iconic.battery_full:before, .header .nav li .item-content .battery_full.icon:before {
   content: "";
 }
 /* line 268, ../scss/partials/_typography.scss */
-.iconic.magnifying_glass:before, .header .nav .item-content .magnifying_glass.icon:before {
+.iconic.magnifying_glass:before, .header .nav li .item-content .magnifying_glass.icon:before {
   content: "";
 }
 /* line 269, ../scss/partials/_typography.scss */
-.iconic.lock_fill:before, .header .nav .item-content .lock_fill.icon:before {
+.iconic.lock_fill:before, .header .nav li .item-content .lock_fill.icon:before {
   content: "";
 }
 /* line 270, ../scss/partials/_typography.scss */
-.iconic.unlock_fill:before, .header .nav .item-content .unlock_fill.icon:before {
+.iconic.unlock_fill:before, .header .nav li .item-content .unlock_fill.icon:before {
   content: "";
 }
 /* line 271, ../scss/partials/_typography.scss */
-.iconic.link:before, .header .nav .item-content .link.icon:before {
+.iconic.link:before, .header .nav li .item-content .link.icon:before {
   content: "";
 }
 /* line 272, ../scss/partials/_typography.scss */
-.iconic.wrench:before, .header .nav .item-content .wrench.icon:before {
+.iconic.wrench:before, .header .nav li .item-content .wrench.icon:before {
   content: "";
 }
 /* line 273, ../scss/partials/_typography.scss */
-.iconic.clock:before, .header .nav .item-content .clock.icon:before {
+.iconic.clock:before, .header .nav li .item-content .clock.icon:before {
   content: "";
 }
 
@@ -2253,73 +2253,83 @@ HEADER STYLES
 }
 /* line 159, ../scss/breakpoints/_base.scss */
 .header .nav {
+  margin-top: -4px;
   clear: both;
 }
-/* line 164, ../scss/breakpoints/_base.scss */
+/* line 165, ../scss/breakpoints/_base.scss */
 .header .nav li:nth-child(even) .item-content .icon {
   color: rgba(203, 31, 38, 0.25);
 }
 /* line 169, ../scss/breakpoints/_base.scss */
-.header .nav .item-content .icon {
-  display: block;
-  float: left;
+.header .nav li {
+  display: inline-block;
+  height: 40px;
+}
+/* line 172, ../scss/breakpoints/_base.scss */
+.header .nav li a {
+  margin-top: 5px;
+  padding: 0 10px;
+}
+/* line 178, ../scss/breakpoints/_base.scss */
+.header .nav li .item-content .icon {
+  position: relative;
+  top: -4px;
+  display: inline-block;
   width: 24px;
   height: 24px;
   font-size: 24px;
   text-align: center;
   color: rgba(203, 31, 38, 0.5);
 }
-/* line 180, ../scss/breakpoints/_base.scss */
-.header .nav .item-content .text-wrap {
-  display: block;
-  margin-top: -4px;
+/* line 190, ../scss/breakpoints/_base.scss */
+.header .nav li .item-content .text-wrap {
+  display: inline-block;
   margin-left: 8px;
-  float: left;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 11px;
   line-height: 14px;
   color: #222;
 }
-/* line 189, ../scss/breakpoints/_base.scss */
-.header .nav .item-content .text-wrap .text {
+/* line 197, ../scss/breakpoints/_base.scss */
+.header .nav li .item-content .text-wrap .text {
   text-transform: uppercase;
   font-weight: 600;
 }
-/* line 193, ../scss/breakpoints/_base.scss */
-.header .nav .item-content .text-wrap .subtitle {
+/* line 201, ../scss/breakpoints/_base.scss */
+.header .nav li .item-content .text-wrap .subtitle {
   display: block;
 }
-/* line 200, ../scss/breakpoints/_base.scss */
-.header .nav .item-content.home .subtitle:before {
+/* line 208, ../scss/breakpoints/_base.scss */
+.header .nav li .item-content.home .subtitle:before {
   content: 'ホーム';
 }
-/* line 204, ../scss/breakpoints/_base.scss */
-.header .nav .item-content.about .subtitle:before {
+/* line 212, ../scss/breakpoints/_base.scss */
+.header .nav li .item-content.about .subtitle:before {
   content: '情報';
 }
-/* line 208, ../scss/breakpoints/_base.scss */
-.header .nav .item-content.events .subtitle:before {
+/* line 216, ../scss/breakpoints/_base.scss */
+.header .nav li .item-content.events .subtitle:before {
   content: 'イベント';
 }
-/* line 212, ../scss/breakpoints/_base.scss */
-.header .nav .item-content.sponsors .subtitle:before {
+/* line 220, ../scss/breakpoints/_base.scss */
+.header .nav li .item-content.sponsors .subtitle:before {
   content: 'スポンサー';
 }
-/* line 216, ../scss/breakpoints/_base.scss */
-.header .nav .item-content.merchandise .subtitle:before {
+/* line 224, ../scss/breakpoints/_base.scss */
+.header .nav li .item-content.merchandise .subtitle:before {
   content: '商品';
 }
 
-/* line 222, ../scss/breakpoints/_base.scss */
+/* line 231, ../scss/breakpoints/_base.scss */
 #logo {
   float: left;
 }
-/* line 224, ../scss/breakpoints/_base.scss */
+/* line 233, ../scss/breakpoints/_base.scss */
 #logo * {
   line-height: 0;
 }
 
-/* line 229, ../scss/breakpoints/_base.scss */
+/* line 238, ../scss/breakpoints/_base.scss */
 #mascots {
   float: left;
   margin-right: -15px;
@@ -2335,7 +2345,7 @@ easily write one group of styles for
 the navs on the site so our css is cleaner
 and more scalable.
 */
-/* line 246, ../scss/breakpoints/_base.scss */
+/* line 255, ../scss/breakpoints/_base.scss */
 .nav {
   border-bottom: 0;
   margin: 0;
@@ -2343,7 +2353,7 @@ and more scalable.
   /* highlight current page */
   /* end current highlighters */
 }
-/* line 250, ../scss/breakpoints/_base.scss */
+/* line 259, ../scss/breakpoints/_base.scss */
 .nav li {
   /*
   so you really have to rethink your dropdowns for mobile.
@@ -2353,7 +2363,7 @@ and more scalable.
   http://www.alistapart.com/articles/organizing-mobile/
   */
 }
-/* line 252, ../scss/breakpoints/_base.scss */
+/* line 261, ../scss/breakpoints/_base.scss */
 .nav li a {
   display: block;
   color: #b2a591;
@@ -2369,11 +2379,11 @@ and more scalable.
   			browser window to "mobile size"
   			*/
 }
-/* line 267, ../scss/breakpoints/_base.scss */
+/* line 276, ../scss/breakpoints/_base.scss */
 .nav li a:hover, .nav li a:focus {
   color: #9d8c73;
 }
-/* line 288, ../scss/breakpoints/_base.scss */
+/* line 297, ../scss/breakpoints/_base.scss */
 .nav li ul.sub-menu li a,
 .nav li ul.children li a {
   padding-left: 30px;
@@ -2383,12 +2393,12 @@ and more scalable.
 /*********************
 POSTS & CONTENT STYLES
 *********************/
-/* line 324, ../scss/breakpoints/_base.scss */
+/* line 333, ../scss/breakpoints/_base.scss */
 #content {
   margin-top: 1.5em;
 }
 
-/* line 328, ../scss/breakpoints/_base.scss */
+/* line 337, ../scss/breakpoints/_base.scss */
 .hentry {
   background: #fffcf1;
   border-radius: 4px;
@@ -2396,28 +2406,28 @@ POSTS & CONTENT STYLES
   margin-bottom: 1.5em;
   padding: 20px;
 }
-/* line 336, ../scss/breakpoints/_base.scss */
+/* line 345, ../scss/breakpoints/_base.scss */
 .hentry header h1 {
   margin: 5px 0;
   color: #9944bb;
 }
-/* line 340, ../scss/breakpoints/_base.scss */
+/* line 349, ../scss/breakpoints/_base.scss */
 .hentry header h1 a {
   font-size: 20px;
   line-height: normal;
   color: #9944bb;
 }
-/* line 344, ../scss/breakpoints/_base.scss */
+/* line 353, ../scss/breakpoints/_base.scss */
 .hentry header h1 a:hover {
   color: #ad69c9;
 }
-/* line 352, ../scss/breakpoints/_base.scss */
+/* line 361, ../scss/breakpoints/_base.scss */
 .hentry footer p {
   margin: 0;
 }
 
 /* end .hentry */
-/* line 359, ../scss/breakpoints/_base.scss */
+/* line 368, ../scss/breakpoints/_base.scss */
 .single-title,
 .page-title,
 .entry-title {
@@ -2434,24 +2444,24 @@ POSTS & CONTENT STYLES
 /* style by category (i.e. category-videos) */
 /* style by tag (i.e. tag-news) */
 /* post meta */
-/* line 384, ../scss/breakpoints/_base.scss */
+/* line 393, ../scss/breakpoints/_base.scss */
 .byline {
   font-size: 13px;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   margin: 0;
 }
-/* line 390, ../scss/breakpoints/_base.scss */
+/* line 399, ../scss/breakpoints/_base.scss */
 .byline, .byline a {
   color: rgba(142, 94, 162, 0.34);
 }
-/* line 393, ../scss/breakpoints/_base.scss */
+/* line 402, ../scss/breakpoints/_base.scss */
 .byline time {
   color: rgba(142, 94, 162, 0.67);
 }
 
 /* entry content */
-/* line 399, ../scss/breakpoints/_base.scss */
+/* line 408, ../scss/breakpoints/_base.scss */
 .entry-content {
   font-size: 14px;
   line-height: 28px;
@@ -2462,17 +2472,17 @@ POSTS & CONTENT STYLES
   but it's up to you. Feel free to change it up.
   */
 }
-/* line 403, ../scss/breakpoints/_base.scss */
+/* line 412, ../scss/breakpoints/_base.scss */
 .entry-content p {
   margin: 0 0 1.5em;
 }
-/* line 428, ../scss/breakpoints/_base.scss */
+/* line 437, ../scss/breakpoints/_base.scss */
 .entry-content table {
   width: 100%;
   border: 1px solid #eaedf2;
   margin-bottom: 1.5em;
 }
-/* line 433, ../scss/breakpoints/_base.scss */
+/* line 442, ../scss/breakpoints/_base.scss */
 .entry-content table caption {
   margin: 0 0 7px;
   font-size: 0.75em;
@@ -2480,34 +2490,34 @@ POSTS & CONTENT STYLES
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-/* line 442, ../scss/breakpoints/_base.scss */
+/* line 451, ../scss/breakpoints/_base.scss */
 .entry-content tr {
   border-bottom: 1px solid #eaedf2;
 }
-/* line 445, ../scss/breakpoints/_base.scss */
+/* line 454, ../scss/breakpoints/_base.scss */
 .entry-content tr:nth-child(even) {
   background-color: #f8f9fa;
 }
-/* line 450, ../scss/breakpoints/_base.scss */
+/* line 459, ../scss/breakpoints/_base.scss */
 .entry-content td {
   padding: 7px;
   border-right: 1px solid #eaedf2;
 }
-/* line 454, ../scss/breakpoints/_base.scss */
+/* line 463, ../scss/breakpoints/_base.scss */
 .entry-content td:last-child {
   border-right: 0;
 }
-/* line 459, ../scss/breakpoints/_base.scss */
+/* line 468, ../scss/breakpoints/_base.scss */
 .entry-content th {
   background-color: #f8f9fa;
   border-bottom: 1px solid #eaedf2;
   border-right: 1px solid #eaedf2;
 }
-/* line 464, ../scss/breakpoints/_base.scss */
+/* line 473, ../scss/breakpoints/_base.scss */
 .entry-content th:last-child {
   border-right: 0;
 }
-/* line 469, ../scss/breakpoints/_base.scss */
+/* line 478, ../scss/breakpoints/_base.scss */
 .entry-content blockquote {
   margin: 0 0 1.5em 0.75em;
   padding: 0 0 0 0.75em;
@@ -2515,20 +2525,20 @@ POSTS & CONTENT STYLES
   font-style: italic;
   color: #9fa6b4;
 }
-/* line 484, ../scss/breakpoints/_base.scss */
+/* line 493, ../scss/breakpoints/_base.scss */
 .entry-content dd {
   margin-left: 0;
   font-size: 0.9em;
   color: #787878;
   margin-bottom: 1.5em;
 }
-/* line 491, ../scss/breakpoints/_base.scss */
+/* line 500, ../scss/breakpoints/_base.scss */
 .entry-content img {
   margin: 0 0 1.5em 0;
   max-width: 100%;
   height: auto;
 }
-/* line 507, ../scss/breakpoints/_base.scss */
+/* line 516, ../scss/breakpoints/_base.scss */
 .entry-content .size-auto,
 .entry-content .size-full,
 .entry-content .size-large,
@@ -2537,7 +2547,7 @@ POSTS & CONTENT STYLES
   max-width: 100%;
   height: auto;
 }
-/* line 516, ../scss/breakpoints/_base.scss */
+/* line 525, ../scss/breakpoints/_base.scss */
 .entry-content pre {
   background: #323944;
   color: #f8f9fa;
@@ -2548,20 +2558,20 @@ POSTS & CONTENT STYLES
 }
 
 /* end .entry-content */
-/* line 527, ../scss/breakpoints/_base.scss */
+/* line 536, ../scss/breakpoints/_base.scss */
 .wp-caption {
   max-width: 100%;
   background: #eee;
   padding: 5px;
   /* images inside wp-caption */
 }
-/* line 533, ../scss/breakpoints/_base.scss */
+/* line 542, ../scss/breakpoints/_base.scss */
 .wp-caption img {
   max-width: 100%;
   margin-bottom: 0;
   width: 100%;
 }
-/* line 539, ../scss/breakpoints/_base.scss */
+/* line 548, ../scss/breakpoints/_base.scss */
 .wp-caption p.wp-caption-text {
   font-size: 0.85em;
   margin: 4px 0 7px;
@@ -2572,7 +2582,7 @@ POSTS & CONTENT STYLES
 /* image gallery styles */
 /* end .gallery */
 /* gallery caption styles */
-/* line 573, ../scss/breakpoints/_base.scss */
+/* line 582, ../scss/breakpoints/_base.scss */
 .tags {
   margin: 0;
 }
@@ -2580,17 +2590,17 @@ POSTS & CONTENT STYLES
 /******************************************************************
 PAGE NAVI STYLES
 ******************************************************************/
-/* line 581, ../scss/breakpoints/_base.scss */
+/* line 590, ../scss/breakpoints/_base.scss */
 .pagination,
 .wp-prev-next {
   margin: 1.5em 0;
 }
 
-/* line 585, ../scss/breakpoints/_base.scss */
+/* line 594, ../scss/breakpoints/_base.scss */
 .pagination {
   text-align: center;
 }
-/* line 588, ../scss/breakpoints/_base.scss */
+/* line 597, ../scss/breakpoints/_base.scss */
 .pagination ul {
   display: inline-block;
   background-color: #fff;
@@ -2599,7 +2609,7 @@ PAGE NAVI STYLES
   clear: both;
   border-radius: 3px;
 }
-/* line 597, ../scss/breakpoints/_base.scss */
+/* line 606, ../scss/breakpoints/_base.scss */
 .pagination li {
   padding: 0;
   margin: 0;
@@ -2608,7 +2618,7 @@ PAGE NAVI STYLES
   overflow: hidden;
   border-right: 1px solid #eaedf2;
 }
-/* line 606, ../scss/breakpoints/_base.scss */
+/* line 615, ../scss/breakpoints/_base.scss */
 .pagination a, .pagination span {
   margin: 0;
   text-decoration: none;
@@ -2621,17 +2631,17 @@ PAGE NAVI STYLES
   display: block;
   color: #2980b9;
 }
-/* line 618, ../scss/breakpoints/_base.scss */
+/* line 627, ../scss/breakpoints/_base.scss */
 .pagination a:hover, .pagination a:focus, .pagination span:hover, .pagination span:focus {
   background-color: #2980b9;
   color: #fff;
 }
-/* line 624, ../scss/breakpoints/_base.scss */
+/* line 633, ../scss/breakpoints/_base.scss */
 .pagination .current {
   cursor: default;
   color: #222;
 }
-/* line 628, ../scss/breakpoints/_base.scss */
+/* line 637, ../scss/breakpoints/_base.scss */
 .pagination .current:hover, .pagination .current:focus {
   background-color: #fff;
   color: #222;
@@ -2639,11 +2649,11 @@ PAGE NAVI STYLES
 
 /* end .bones_page_navi */
 /* fallback previous & next links */
-/* line 641, ../scss/breakpoints/_base.scss */
+/* line 650, ../scss/breakpoints/_base.scss */
 .wp-prev-next .prev-link {
   float: left;
 }
-/* line 645, ../scss/breakpoints/_base.scss */
+/* line 654, ../scss/breakpoints/_base.scss */
 .wp-prev-next .next-link {
   float: right;
 }
@@ -2653,7 +2663,7 @@ PAGE NAVI STYLES
 COMMENT STYLES
 ******************************************************************/
 /* h3 comment title */
-/* line 656, ../scss/breakpoints/_base.scss */
+/* line 665, ../scss/breakpoints/_base.scss */
 #comments-title {
   padding: 0.75em;
   margin: 0;
@@ -2661,13 +2671,13 @@ COMMENT STYLES
   /* number of comments span */
 }
 
-/* line 676, ../scss/breakpoints/_base.scss */
+/* line 685, ../scss/breakpoints/_base.scss */
 .commentlist {
   margin: 0;
   list-style-type: none;
 }
 
-/* line 681, ../scss/breakpoints/_base.scss */
+/* line 690, ../scss/breakpoints/_base.scss */
 .comment {
   position: relative;
   clear: both;
@@ -2679,78 +2689,78 @@ COMMENT STYLES
   /* end children */
   /* general comment classes */
 }
-/* line 688, ../scss/breakpoints/_base.scss */
+/* line 697, ../scss/breakpoints/_base.scss */
 .comment .comment-author {
   padding: 7px;
   border: 0;
 }
-/* line 694, ../scss/breakpoints/_base.scss */
+/* line 703, ../scss/breakpoints/_base.scss */
 .comment .vcard {
   margin-left: 50px;
 }
-/* line 697, ../scss/breakpoints/_base.scss */
+/* line 706, ../scss/breakpoints/_base.scss */
 .comment .vcard cite.fn {
   font-weight: 700;
   font-style: normal;
 }
-/* line 705, ../scss/breakpoints/_base.scss */
+/* line 714, ../scss/breakpoints/_base.scss */
 .comment .vcard time {
   display: block;
   font-size: 0.9em;
   font-style: italic;
 }
-/* line 710, ../scss/breakpoints/_base.scss */
+/* line 719, ../scss/breakpoints/_base.scss */
 .comment .vcard time a {
   color: #9fa6b4;
   text-decoration: none;
 }
-/* line 714, ../scss/breakpoints/_base.scss */
+/* line 723, ../scss/breakpoints/_base.scss */
 .comment .vcard time a:hover {
   text-decoration: underline;
 }
-/* line 724, ../scss/breakpoints/_base.scss */
+/* line 733, ../scss/breakpoints/_base.scss */
 .comment .vcard .avatar {
   position: absolute;
   left: 16px;
   border-radius: 50%;
 }
-/* line 732, ../scss/breakpoints/_base.scss */
+/* line 741, ../scss/breakpoints/_base.scss */
 .comment:last-child {
   margin-bottom: 0;
 }
-/* line 736, ../scss/breakpoints/_base.scss */
+/* line 745, ../scss/breakpoints/_base.scss */
 .comment .children {
   margin: 0;
   /* variations */
   /* change number for different depth */
 }
-/* line 754, ../scss/breakpoints/_base.scss */
+/* line 763, ../scss/breakpoints/_base.scss */
 .comment[class*=depth-] {
   margin-top: 1.1em;
 }
-/* line 758, ../scss/breakpoints/_base.scss */
+/* line 767, ../scss/breakpoints/_base.scss */
 .comment.depth-1 {
   margin-left: 0;
   margin-top: 0;
 }
-/* line 763, ../scss/breakpoints/_base.scss */
+/* line 772, ../scss/breakpoints/_base.scss */
 .comment:not(.depth-1) {
   margin-top: 0;
   margin-left: 7px;
   padding: 7px;
 }
-/* line 776, ../scss/breakpoints/_base.scss */
+/* line 785, ../scss/breakpoints/_base.scss */
 .comment.odd {
   background-color: #fff;
 }
-/* line 779, ../scss/breakpoints/_base.scss */
+/* line 788, ../scss/breakpoints/_base.scss */
 .comment.even {
   background: #f8f9fa;
 }
 
 /* comment meta */
 /* comment content */
-/* line 813, ../scss/breakpoints/_base.scss */
+/* line 822, ../scss/breakpoints/_base.scss */
 .comment_content p {
   margin: 0.7335em 0 1.5em;
   font-size: 1em;
@@ -2759,7 +2769,7 @@ COMMENT STYLES
 
 /* end .commentlist .comment_content */
 /* comment reply link */
-/* line 822, ../scss/breakpoints/_base.scss */
+/* line 831, ../scss/breakpoints/_base.scss */
 .comment-reply-link {
   font-size: 0.9em;
   float: right;
@@ -2767,7 +2777,7 @@ COMMENT STYLES
 
 /* end .commentlist .comment-reply-link */
 /* edit comment link */
-/* line 834, ../scss/breakpoints/_base.scss */
+/* line 843, ../scss/breakpoints/_base.scss */
 .comment-edit-link {
   font-style: italic;
   margin: 0 7px;
@@ -2778,34 +2788,34 @@ COMMENT STYLES
 /******************************************************************
 COMMENT FORM STYLES
 ******************************************************************/
-/* line 847, ../scss/breakpoints/_base.scss */
+/* line 856, ../scss/breakpoints/_base.scss */
 .comment-respond {
   padding: 1.5em;
   border-top: 1px solid #f8f9fa;
 }
 
-/* line 853, ../scss/breakpoints/_base.scss */
+/* line 862, ../scss/breakpoints/_base.scss */
 #reply-title {
   margin: 0;
 }
 
-/* line 857, ../scss/breakpoints/_base.scss */
+/* line 866, ../scss/breakpoints/_base.scss */
 .logged-in-as {
   color: #9fa6b4;
   font-style: italic;
   margin: 0;
 }
-/* line 862, ../scss/breakpoints/_base.scss */
+/* line 871, ../scss/breakpoints/_base.scss */
 .logged-in-as a {
   color: #222;
 }
 
-/* line 867, ../scss/breakpoints/_base.scss */
+/* line 876, ../scss/breakpoints/_base.scss */
 .comment-form-comment {
   margin: 1.5em 0 0.75em;
 }
 
-/* line 871, ../scss/breakpoints/_base.scss */
+/* line 880, ../scss/breakpoints/_base.scss */
 .form-allowed-tags {
   padding: 1.5em;
   background-color: #f8f9fa;
@@ -2813,14 +2823,14 @@ COMMENT FORM STYLES
 }
 
 /* comment submit button */
-/* line 878, ../scss/breakpoints/_base.scss */
+/* line 887, ../scss/breakpoints/_base.scss */
 #submit {
   float: right;
   font-size: 1em;
 }
 
 /* comment form title */
-/* line 885, ../scss/breakpoints/_base.scss */
+/* line 894, ../scss/breakpoints/_base.scss */
 #comment-form-title {
   margin: 0 0 1.1em;
 }
@@ -2828,13 +2838,13 @@ COMMENT FORM STYLES
 /* cancel comment reply link */
 /* logged in comments */
 /* allowed tags */
-/* line 898, ../scss/breakpoints/_base.scss */
+/* line 907, ../scss/breakpoints/_base.scss */
 #allowed_tags {
   margin: 1.5em 10px 0.7335em 0;
 }
 
 /* no comments */
-/* line 903, ../scss/breakpoints/_base.scss */
+/* line 912, ../scss/breakpoints/_base.scss */
 .nocomments {
   margin: 0 20px 1.1em;
 }
@@ -2842,12 +2852,12 @@ COMMENT FORM STYLES
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 919, ../scss/breakpoints/_base.scss */
+/* line 928, ../scss/breakpoints/_base.scss */
 .widget ul li {
   /* deep nesting */
 }
 
-/* line 936, ../scss/breakpoints/_base.scss */
+/* line 945, ../scss/breakpoints/_base.scss */
 .no-widgets {
   background-color: #fff;
   padding: 1.5em;
@@ -2860,7 +2870,7 @@ SIDEBARS & ASIDES
 /*********************
 FOOTER STYLES
 *********************/
-/* line 949, ../scss/breakpoints/_base.scss */
+/* line 958, ../scss/breakpoints/_base.scss */
 .footer {
   padding: 40px 0;
   clear: both;
@@ -2869,19 +2879,19 @@ FOOTER STYLES
   font-size: 12px;
   text-align: center;
 }
-/* line 957, ../scss/breakpoints/_base.scss */
+/* line 966, ../scss/breakpoints/_base.scss */
 .footer .logos {
   margin-top: 10px;
 }
-/* line 959, ../scss/breakpoints/_base.scss */
+/* line 968, ../scss/breakpoints/_base.scss */
 .footer .logos a {
   padding-left: 10px;
 }
-/* line 961, ../scss/breakpoints/_base.scss */
+/* line 970, ../scss/breakpoints/_base.scss */
 .footer .logos a:first-child {
   padding-left: 0;
 }
-/* line 963, ../scss/breakpoints/_base.scss */
+/* line 972, ../scss/breakpoints/_base.scss */
 .footer .logos img {
   vertical-align: middle;
 }

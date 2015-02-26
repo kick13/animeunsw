@@ -157,6 +157,7 @@ HEADER STYLES
 	background: $aunsw-tanner;
 
 	.nav {
+		margin-top: -4px;
 		clear: both;
 
     // Menu item styling - see header_nav_walker.php
@@ -165,57 +166,65 @@ HEADER STYLES
 				color: transparentize($aunsw-accent, 0.75);
 			}
 		}
-	  .item-content {
-	    .icon {
-				@extend .iconic;
-				display: block;
-				float: left;
-				width: 24px;
-				height: 24px;
-				font-size: 24px;
-				text-align: center;
-				color: transparentize($aunsw-accent, 0.5);
-	    }
-
-			.text-wrap {
-				display: block;
-				margin-top: -4px;
-				margin-left: 8px;
-				float: left;
-				font-family: $lato;
-				font-size: 11px;
-				line-height: 14px;
-				color: $text-color;
-				.text {
-					text-transform: uppercase;
-					font-weight: 600;
-				}
-				.subtitle {
-					display: block;
-				}
+		li {
+			display: inline-block;
+			height: 40px;
+			a {
+				margin-top: 5px;
+				padding: 0 10px;
 			}
 
-	    &.home {
-	      .icon { @extend .iconic.home; }
-				.subtitle:before { content: 'ホーム'; }
-	    }
-			&.about {
-				.icon { @extend .iconic.question_mark; }
-				.subtitle:before { content: '情報'; }
-			}
-			&.events {
-				.icon { @extend .iconic.calendar_alt_fill; }
-				.subtitle:before { content: 'イベント'; }
-			}
-			&.sponsors {
-				.icon { @extend .iconic.heart_fill; }
-				.subtitle:before { content: 'スポンサー'; }
-			}
-			&.merchandise {
-			  // TODO
-				.subtitle:before { content: '商品'; }
-			}
-	  }
+		  .item-content {
+		    .icon {
+					position: relative;
+					top: -4px;
+					@extend .iconic;
+					display: inline-block;
+					width: 24px;
+					height: 24px;
+					font-size: 24px;
+					text-align: center;
+					color: transparentize($aunsw-accent, 0.5);
+		    }
+
+				.text-wrap {
+					display: inline-block;
+					margin-left: 8px;
+					font-family: $lato;
+					font-size: 11px;
+					line-height: 14px;
+					color: $text-color;
+					.text {
+						text-transform: uppercase;
+						font-weight: 600;
+					}
+					.subtitle {
+						display: block;
+					}
+				}
+
+		    &.home {
+		      .icon { @extend .iconic.home; }
+					.subtitle:before { content: 'ホーム'; }
+		    }
+				&.about {
+					.icon { @extend .iconic.question_mark; }
+					.subtitle:before { content: '情報'; }
+				}
+				&.events {
+					.icon { @extend .iconic.calendar_alt_fill; }
+					.subtitle:before { content: 'イベント'; }
+				}
+				&.sponsors {
+					.icon { @extend .iconic.heart_fill; }
+					.subtitle:before { content: 'スポンサー'; }
+				}
+				&.merchandise {
+				  // TODO
+					.subtitle:before { content: '商品'; }
+				}
+		  }
+		}
 	}
 }
 
