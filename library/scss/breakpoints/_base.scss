@@ -155,8 +155,58 @@ HEADER STYLES
 
 .header {
 	background: $aunsw-tanner;
+
 	.nav {
 		clear: both;
+
+    // Menu item styling - see header_nav_walker.php
+	  .item-content {
+	    .icon {
+				@extend .iconic;
+				display: block;
+				float: left;
+				width: 24px;
+				font-size: 24px;
+				color: $aunsw-accent;
+	    }
+
+			.text-wrap {
+				display: block;
+				float: left;
+				font-family: $lato;
+				font-size: 11px;
+				line-height: 14px;
+				color: $text-color;
+				.text {
+					text-transform: uppercase;
+					font-weight: 600;
+				}
+				.subtitle {
+					display: block;
+				}
+			}
+
+	    &.home {
+	      .icon { @extend .iconic.home; }
+				.subtitle:before { content: 'ホーム'; }
+	    }
+			&.about {
+				.icon { @extend .iconic.question_mark; }
+				.subtitle:before { content: '情報'; }
+			}
+			&.events {
+				.icon { @extend .iconic.calendar_alt_fill; }
+				.subtitle:before { content: 'イベント'; }
+			}
+			&.sponsors {
+				.icon { @extend .iconic.heart_fill; }
+				.subtitle:before { content: 'スポンサー'; }
+			}
+			&.merchandise {
+			  // TODO
+				.subtitle:before { content: '商品'; }
+			}
+	  }
 	}
 }
 
