@@ -220,7 +220,11 @@ HEADER STYLES
 					.subtitle:before { content: 'スポンサー'; }
 				}
 				&.merchandise {
-				  // TODO
+					.icon {
+						@extend .shirt-icon;
+						font-size: 36px;
+				  	vertical-align: top;
+					}
 					.subtitle:before { content: '商品'; }
 				}
 		  }
