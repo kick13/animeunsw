@@ -17,10 +17,13 @@
 		<div class="events">
 			<div class="content">
 				<h1>What's happening?</h1>
-				<h2><a href="#">Matsuri in Sydney &raquo;</a></h2>
+				<p>Coming soon! Until then, check out our
+				<a href="https://www.facebook.com/groups/AnimeUNSWevents/">Facebook events group</a>
+				for the latest!</p>
+				<!--<h2><a href="#">Matsuri in Sydney &raquo;</a></h2>
 				<p>13th December, 10am-6pm <span>Darling Harbour</span></p>
 				<h2><a href="#">Weekly Sessions &raquo;</a></h2>
-				<p>It's summer holidays! We'll be back for our weekly seshes next sem!</p>
+				<p>It's summer holidays! We'll be back for our weekly seshes next sem!</p>-->
 			</div>
 		</div>
 	</div>
