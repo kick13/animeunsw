@@ -962,19 +962,31 @@ FOOTER STYLES
 .footer {
 	padding: 40px 0;
 	clear: both;
-	background-color: $aunsw-tanner;
-	color: fade-out(black, 0.2);
+	color: fade-out(white, 0.2);
 	font-size: 12px;
 	text-align: center;
 
-	.logos {
-		margin-top: 10px;
-		a {
-			padding-left: 10px;
-			&:first-child { padding-left: 0; }
-		}
-		img {
-			vertical-align: middle;
+	h2 {
+		margin: 0;
+		font-size: 18px;
+	}
+
+	&.uwotadblock {
+		background-color: $aunsw-purple-dark;
+	}
+
+	&.main {
+		background-color: $aunsw-accent-dark;
+
+		.logos {
+			margin-top: 10px;
+			a {
+				padding-left: 10px;
+				&:first-child { padding-left: 0; }
+			}
+			img {
+				vertical-align: middle;
+			}
 		}
 	}
 }

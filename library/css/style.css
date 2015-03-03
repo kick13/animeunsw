@@ -2906,25 +2906,37 @@ FOOTER STYLES
 .footer {
   padding: 40px 0;
   clear: both;
-  background-color: #e5d9c8;
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(255, 255, 255, 0.8);
   font-size: 12px;
   text-align: center;
 }
-/* line 970, ../scss/breakpoints/_base.scss */
-.footer .logos {
-  margin-top: 10px;
-}
-/* line 972, ../scss/breakpoints/_base.scss */
-.footer .logos a {
-  padding-left: 10px;
+/* line 969, ../scss/breakpoints/_base.scss */
+.footer h2 {
+  margin: 0;
+  font-size: 18px;
 }
 /* line 974, ../scss/breakpoints/_base.scss */
-.footer .logos a:first-child {
+.footer.uwotadblock {
+  background-color: #5d0084;
+}
+/* line 978, ../scss/breakpoints/_base.scss */
+.footer.main {
+  background-color: #840000;
+}
+/* line 981, ../scss/breakpoints/_base.scss */
+.footer.main .logos {
+  margin-top: 10px;
+}
+/* line 983, ../scss/breakpoints/_base.scss */
+.footer.main .logos a {
+  padding-left: 10px;
+}
+/* line 985, ../scss/breakpoints/_base.scss */
+.footer.main .logos a:first-child {
   padding-left: 0;
 }
-/* line 976, ../scss/breakpoints/_base.scss */
-.footer .logos img {
+/* line 987, ../scss/breakpoints/_base.scss */
+.footer.main .logos img {
   vertical-align: middle;
 }
 
@@ -3550,7 +3562,7 @@ be set to display none.
 }
 /* line 103, ../scss/pages/home_base.scss */
 #hero .events p {
-  font-size: 11px;
+  font-size: 12px;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 /* line 107, ../scss/pages/home_base.scss */
