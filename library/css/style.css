@@ -2906,8 +2906,8 @@ FOOTER STYLES
 .footer {
   padding: 40px 0;
   clear: both;
-  color: rgba(255, 255, 255, 0.8);
-  font-size: 12px;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 11px;
   text-align: center;
 }
 /* line 969, ../scss/breakpoints/_base.scss */
@@ -2925,7 +2925,7 @@ FOOTER STYLES
 }
 /* line 979, ../scss/breakpoints/_base.scss */
 .footer.uwotadblock .logos a {
-  padding-left: 30px;
+  padding: 5px 0 5px 30px;
 }
 /* line 981, ../scss/breakpoints/_base.scss */
 .footer.uwotadblock .logos a:first-child {
@@ -2938,18 +2938,33 @@ FOOTER STYLES
 /* line 989, ../scss/breakpoints/_base.scss */
 .footer.main {
   background-color: #840000;
+  overflow: hidden;
 }
-/* line 993, ../scss/breakpoints/_base.scss */
+/* line 994, ../scss/breakpoints/_base.scss */
 .footer.main .logos a {
   padding-left: 10px;
 }
-/* line 995, ../scss/breakpoints/_base.scss */
+/* line 996, ../scss/breakpoints/_base.scss */
 .footer.main .logos a:first-child {
   padding-left: 0;
 }
-/* line 997, ../scss/breakpoints/_base.scss */
+/* line 998, ../scss/breakpoints/_base.scss */
 .footer.main .logos img {
   vertical-align: middle;
+}
+/* line 1003, ../scss/breakpoints/_base.scss */
+.footer.main .wrap {
+  position: relative;
+}
+/* line 1006, ../scss/breakpoints/_base.scss */
+.footer.main .wrap .background-text {
+  position: absolute;
+  bottom: -60px;
+  left: 140px;
+  font-size: 72px;
+  font-weight: bold;
+  opacity: .07;
+  white-space: nowrap;
 }
 
 /*
