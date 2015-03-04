@@ -3,6 +3,15 @@
 				<div class="footer uwotadblock">
 					<div class="wrap cf">
 						<h2>We &lt;3 our sponsors</h2>
+						<?php
+						$images = glob(get_template_directory() . '/library/images/sponsors/*.png');
+						foreach ($images as $image) {
+							$image = str_replace(get_template_directory(), get_template_directory_uri(), $image);
+							if (strstr($image, '@2x') === false) {
+								echo '<img src="'. $image . '">';
+							}
+						}
+						?>
 					</div>
 				</div>
 
