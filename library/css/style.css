@@ -2912,30 +2912,42 @@ FOOTER STYLES
 }
 /* line 969, ../scss/breakpoints/_base.scss */
 .footer h2 {
-  margin: 0;
+  margin: 0 0 10px;
   font-size: 18px;
 }
 /* line 974, ../scss/breakpoints/_base.scss */
 .footer.uwotadblock {
   background-color: #5d0084;
 }
-/* line 978, ../scss/breakpoints/_base.scss */
+/* line 977, ../scss/breakpoints/_base.scss */
+.footer.uwotadblock .logos {
+  text-align: center;
+}
+/* line 979, ../scss/breakpoints/_base.scss */
+.footer.uwotadblock .logos a {
+  padding-left: 30px;
+}
+/* line 981, ../scss/breakpoints/_base.scss */
+.footer.uwotadblock .logos a:first-child {
+  padding-left: 0;
+}
+/* line 983, ../scss/breakpoints/_base.scss */
+.footer.uwotadblock .logos img {
+  vertical-align: middle;
+}
+/* line 989, ../scss/breakpoints/_base.scss */
 .footer.main {
   background-color: #840000;
 }
-/* line 981, ../scss/breakpoints/_base.scss */
-.footer.main .logos {
-  margin-top: 10px;
-}
-/* line 983, ../scss/breakpoints/_base.scss */
+/* line 993, ../scss/breakpoints/_base.scss */
 .footer.main .logos a {
   padding-left: 10px;
 }
-/* line 985, ../scss/breakpoints/_base.scss */
+/* line 995, ../scss/breakpoints/_base.scss */
 .footer.main .logos a:first-child {
   padding-left: 0;
 }
-/* line 987, ../scss/breakpoints/_base.scss */
+/* line 997, ../scss/breakpoints/_base.scss */
 .footer.main .logos img {
   vertical-align: middle;
 }

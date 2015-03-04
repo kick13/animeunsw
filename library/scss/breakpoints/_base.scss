@@ -967,19 +967,29 @@ FOOTER STYLES
 	text-align: center;
 
 	h2 {
-		margin: 0;
+		margin: 0 0 10px;
 		font-size: 18px;
 	}
 
 	&.uwotadblock {
 		background-color: $aunsw-purple-dark;
+
+		.logos {
+			text-align: center;
+			a {
+				padding-left: 30px;
+				&:first-child { padding-left: 0; }
+			}
+			img {
+				vertical-align: middle;
+			}
+		}
 	}
 
 	&.main {
 		background-color: $aunsw-accent-dark;
 
 		.logos {
-			margin-top: 10px;
 			a {
 				padding-left: 10px;
 				&:first-child { padding-left: 0; }

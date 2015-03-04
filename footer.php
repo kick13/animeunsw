@@ -3,15 +3,56 @@
 				<div class="footer uwotadblock">
 					<div class="wrap cf">
 						<h2>We &lt;3 our sponsors</h2>
-						<?php
-						$images = glob(get_template_directory() . '/library/images/sponsors/*.png');
-						foreach ($images as $image) {
-							$image = str_replace(get_template_directory(), get_template_directory_uri(), $image);
-							if (strstr($image, '@2x') === false) {
-								echo '<img src="'. $image . '">';
-							}
-						}
-						?>
+						<div class="logos">
+							<a href="http://www.anime-oz.com/">
+								<img src="<?php echo get_template_directory_uri() ?>/library/images/sponsors/animeabbotsford.png">
+							</a>
+							<a href="http://www.goodgames.com.au/">
+								<img src="<?php echo get_template_directory_uri() ?>/library/images/sponsors/goodgames.png">
+							</a>
+							<a href="http://www.hanabee.com.au/">
+								<img src="<?php echo get_template_directory_uri() ?>/library/images/sponsors/hanabee.png">
+							</a>
+							<a href="https://hobbyco.com.au/">
+								<img src="<?php echo get_template_directory_uri() ?>/library/images/sponsors/hobbyco.png">
+							</a>
+							<a href="http://fullofbooks.com.au/">
+								<img src="<?php echo get_template_directory_uri() ?>/library/images/sponsors/hondrake.png">
+							</a>
+							<a href="http://jpf.org.au/">
+								<img src="<?php echo get_template_directory_uri() ?>/library/images/sponsors/jpf.png">
+							</a>
+							<a href="http://www.kinokuniya.com.au/">
+								<img src="<?php echo get_template_directory_uri() ?>/library/images/sponsors/kinokuniya.png">
+							</a>
+							<a href="http://www.madman.com.au/">
+								<img src="<?php echo get_template_directory_uri() ?>/library/images/sponsors/madman.png">
+							</a>
+							<a href="https://www.facebook.com/maruyu.sydney">
+								<img src="<?php echo get_template_directory_uri() ?>/library/images/sponsors/maruyu.png">
+							</a>
+							<a href="http://www.mindscape.com.au/">
+								<img src="<?php echo get_template_directory_uri() ?>/library/images/sponsors/mindscape.png">
+							</a>
+							<a href="http://www.thenerdcave.com.au/">
+								<img src="<?php echo get_template_directory_uri() ?>/library/images/sponsors/nerdcave.png">
+							</a>
+							<a href="http://www.facebook.com/maasyd">
+								<img src="<?php echo get_template_directory_uri() ?>/library/images/sponsors/omocha.png">
+							</a>
+							<a href="http://www.pepperlunch.com.au/eng/home/">
+								<img src="<?php echo get_template_directory_uri() ?>/library/images/sponsors/pepperlunch.png">
+							</a>
+							<a href="https://www.facebook.com/qsansydney/">
+								<img src="<?php echo get_template_directory_uri() ?>/library/images/sponsors/qsan.png">
+							</a>
+							<a href="http://sirenvisual.com.au/">
+								<img src="<?php echo get_template_directory_uri() ?>/library/images/sponsors/sirenvisual.png">
+							</a>
+							<a href="http://yogurberry.com.au/">
+								<img src="<?php echo get_template_directory_uri() ?>/library/images/sponsors/yogurberry.png">
+							</a>
+						</div>
 					</div>
 				</div>
 
