@@ -3617,7 +3617,7 @@ be set to display none.
   }
   /* line 127, ../scss/pages/home_base.scss */
   #hero .events {
-    top: 100px;
+    top: 250px;
   }
 }
 @media only screen and (min-width: 1030px) {
