@@ -63,14 +63,15 @@
 						<div class="text">
 							&copy; <?php echo date('Y'); ?> AnimeUNSW. Images are copyright their respective owners.
 							<div>Design MURAMIDOKI created with &lt;3 by your 2015 Media Director.</div>
+							<!-- noun_60388_cc created by Pasquale Ottaiano from the Noun Project -->
 						</div>
 
 						<div class="logos">
 							<a href="http://animesydney.org/" target="_blank">
-								<img src="<?php echo get_template_directory_uri(); ?>/library/images/animesydney-logo.png">
+								<img src="<?php echo get_template_directory_uri(); ?>/library/images/footer-animesydney.png">
 							</a>
 							<a href="http://arc.unsw.edu.au/" target="_blank">
-								<img src="<?php echo get_template_directory_uri(); ?>/library/images/arc-logo.png">
+								<img src="<?php echo get_template_directory_uri(); ?>/library/images/footer-arc.png">
 							</a>
 						</div>
 

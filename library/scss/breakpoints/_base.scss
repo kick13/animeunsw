@@ -991,6 +991,9 @@ FOOTER STYLES
 		overflow: hidden;
 
 		.logos {
+			position: relative;
+			z-index: 2; // Put it in front of the background text
+			margin: 15px 0 0; // Space it from the text on mobile
 			a {
 				padding-left: 10px;
 				&:first-child { padding-left: 0; }

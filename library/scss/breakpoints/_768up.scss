@@ -295,14 +295,15 @@ FOOTER STYLES
 .footer {
 	text-align: left;
 
-	.text {
-		float: left;
-		margin: 0;
-	}
-
-	.logos {
-		float: right;
-		margin: 0;
+	&.main {
+		.text {
+			float: left;
+			margin: 0;
+		}
+		.logos {
+			float: right;
+			margin: -25px 0 0;
+		}
 	}
 }
 
