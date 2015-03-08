@@ -44,22 +44,22 @@
 
 						<p class="byline entry-meta vcard">
 							<?php printf( __( '%1$s %2$s', 'bonestheme' ),
-							/* the time the post was published */
-							'<time class="updated entry-time" datetime="' . get_the_time('Y-m-d') . '" itemprop="datePublished">' . get_the_time(get_option('date_format')) . '</time>',
-							/* the author of the post */
-							'<span class="by">by</span> <span class="entry-author author" itemprop="author" itemscope itemptype="http://schema.org/Person">' . get_the_author_link( get_the_author_meta( 'ID' ) ) . '</span>'
-						); ?>
+								/* the time the post was published */
+								'<time class="updated entry-time" datetime="' . get_the_time('Y-m-d') . '" itemprop="datePublished">' . get_the_time(get_option('date_format')) . '</time>',
+								/* the author of the post */
+								'<span class="by">by</span> <span class="entry-author author" itemprop="author" itemscope itemptype="http://schema.org/Person">' . get_the_author_link( get_the_author_meta( 'ID' ) ) . '</span>'
+							); ?>
 
-						<h1 class="h2 entry-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
+							<h1 class="h2 entry-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
 
-					</p>
+						</p>
 
-				</header>
+					</header>
 
-				<section class="entry-content cf">
-					<?php the_post_thumbnail('aunsw-thumb-800'); ?>
-					<?php the_excerpt(); ?>
-				</section>
+					<section class="entry-content cf">
+						<?php the_post_thumbnail('aunsw-thumb-800'); ?>
+						<?php the_excerpt(); ?>
+					</section>
 
 			</article>
 
