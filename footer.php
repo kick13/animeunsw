@@ -61,8 +61,8 @@
 						<h2>Obligatory bottom of website</h2>
 
 						<div class="text">
-							&copy; <?php echo date('Y'); ?> AnimeUNSW. Images are copyright their respective owners.
-							<div>Design MURAMIDOKI created with &lt;3 by your 2015 Media Director.</div>
+							&copy; 2011-<?php echo date('Y'); ?> AnimeUNSW. Images are copyright their respective owners.
+							<div>Design MURAMIDOKI created with &lt;3 by your 2014-2015 Media Director.</div>
 							<!-- noun_60388_cc created by Pasquale Ottaiano from the Noun Project -->
 						</div>
 
