@@ -1,3 +1,6 @@
 .dp-cur, .chip dt, .te, .te-t, .te-rev-s, .rb-n, .rb-i, .agenda, .event-title{
 white-space:normal !important;
 }
+.view-cap, .view-container-border { background-color:9944BB; }
+.mv-daynames-table { color:FFFCF1; background:9944BB; }
+.mv-event-container { border-top:1px solid 9944BB; }
