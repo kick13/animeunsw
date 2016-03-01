@@ -3186,7 +3186,7 @@ you can add resource intensive styles.
     border: 1px solid #ccc;
     border-top: 0;
     position: absolute;
-    visibility: hidden;
+    /*visibility: hidden;*/
     z-index: 8999;
     /* highlight sub-menu current page */
   }
