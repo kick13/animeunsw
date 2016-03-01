@@ -3186,7 +3186,7 @@ you can add resource intensive styles.
     border: 1px solid #ccc;
     border-top: 0;
     position: absolute;
-    /*visibility: hidden;*/
+    visibility: visible;
     z-index: 8999;
     /* highlight sub-menu current page */
   }
@@ -3206,6 +3206,7 @@ you can add resource intensive styles.
     border-right: 0;
     display: block;
     width: 180px;
+    background: red;
     border-bottom: 1px solid #ccc;
   }
   /* line 127, ../scss/breakpoints/_768up.scss */
