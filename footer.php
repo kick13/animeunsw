@@ -22,6 +22,8 @@
 							<a href="http://jpf.org.au/">
 								<img src="<?php echo get_template_directory_uri() ?>/library/images/sponsors/jpf.png">
 							</a>
+							<a href="http://www.kaika.com.au/">
+								<img src="<?php echo get_template_directory_uri() ?>/library/images/sponsors/kaika.png">
 							<a href="http://www.kinokuniya.com.au/">
 								<img src="<?php echo get_template_directory_uri() ?>/library/images/sponsors/kinokuniya.png">
 							</a>
@@ -39,9 +41,6 @@
 							</a>
 							<a href="http://www.facebook.com/maasyd">
 								<img src="<?php echo get_template_directory_uri() ?>/library/images/sponsors/omocha.png">
-							</a>
-							<a href="http://www.pepperlunch.com.au/eng/home/">
-								<img src="<?php echo get_template_directory_uri() ?>/library/images/sponsors/pepperlunch.png">
 							</a>
 							<a href="https://www.facebook.com/qsansydney/">
 								<img src="<?php echo get_template_directory_uri() ?>/library/images/sponsors/qsan.png">
